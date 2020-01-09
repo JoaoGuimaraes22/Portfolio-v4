@@ -1,0 +1,48 @@
+@import "./variables";
+
+.loading {
+  @include Flex(column);
+  min-height: 100vh;
+  background: $darker-primary;
+  .logo {
+    padding: 2rem;
+    font-family: "Inconsolata", monospace;
+    font-size: 10rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    .logo-minus {
+      color: $blue-primary;
+      padding-right: 1.1rem;
+      animation: 1s fadeIn;
+      animation-fill-mode: forwards;
+    }
+    .logo-main {
+      color: white;
+      animation: 1s fadeIn;
+      animation-fill-mode: forwards;
+    }
+    .logo-greater {
+      color: $blue-primary;
+      padding-left: 1rem;
+      animation: 1s fadeIn;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  33% {
+    opacity: 0.3;
+  }
+
+  66% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

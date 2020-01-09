@@ -1,0 +1,48 @@
+// Global Styling
+@import "./variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+}
+
+body {
+  background: $darker-primary;
+  color: $light-secondary;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+//Global Animations
+
+@keyframes onLoadGo {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

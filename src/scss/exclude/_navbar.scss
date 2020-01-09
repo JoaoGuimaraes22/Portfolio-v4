@@ -1,0 +1,109 @@
+@import "./variables";
+
+.navbar {
+  font-family: "Inconsolata", monospace;
+  background-color: $darker-primary;
+  box-shadow: 0 2px 2px -2px $dark-secondary;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 5rem;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  .logo {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    &-minus {
+      color: $blue-primary;
+    }
+    &-main {
+      color: white;
+    }
+    &-greater {
+      color: $blue-primary;
+    }
+  }
+
+  .nav-list {
+    @include Flex(row);
+    &-item {
+      a {
+        color: $light-secondary;
+        margin-right: 2rem;
+        .nav-links-num {
+          color: $blue-primary;
+        }
+      }
+
+      a:hover {
+        color: $blue-primary;
+      }
+    }
+  }
+
+  .resume {
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    color: $blue-primary;
+    border: 2px $blue-primary solid;
+    padding: 0.7rem;
+    border-radius: 13%;
+  }
+
+  .resume:hover {
+    animation: fadeOpacity 0.4s;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #282c34;
+  }
+
+  33% {
+    background-color: #343942;
+  }
+
+  66% {
+    background-color: #424753;
+  }
+
+  100% {
+    background-color: #494f5c;
+  }
+}
+
+@keyframes gone {
+  0% {
+    top: -20px;
+  }
+
+  33% {
+    top: -40px;
+  }
+
+  66% {
+    top: -60px;
+  }
+
+  100% {
+    top: -100px;
+  }
+}
+
+@keyframes notGone {
+  0% {
+    top: -100px;
+  }
+
+  50% {
+    top: -20px;
+  }
+
+  100% {
+    top: 0;
+  }
+}

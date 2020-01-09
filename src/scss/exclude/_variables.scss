@@ -1,0 +1,19 @@
+// Variables for scss
+
+//Colors
+
+$blue-primary: #61dafb;
+$darker-primary: #20232a;
+$dark-secondary: #282c34;
+$light-secondary: #ccd6f6;
+
+$font-other: "Inconsolata", monospace;
+
+//Flex-center
+
+@mixin Flex($dir) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $dir;
+}

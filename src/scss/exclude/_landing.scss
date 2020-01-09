@@ -1,0 +1,32 @@
+@import "./variables";
+
+.landing {
+  padding-top: 8rem;
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  .hey {
+    font-family: $font-other;
+    color: $blue-primary;
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  .name {
+    font-size: 6rem;
+    padding-top: 1rem;
+  }
+  .intro {
+    padding-top: 1.2rem;
+    font-size: 2.5rem;
+    color: #ccd6f69c;
+  }
+  .desc {
+    padding-top: 3rem;
+    font-size: 1.2rem;
+    color: #ccd6f69c;
+    width: 55%;
+  }
+}
