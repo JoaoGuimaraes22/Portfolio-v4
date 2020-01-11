@@ -5,6 +5,11 @@ import Navbar from "./components/navbar";
 import Landing from "./components/landing";
 import Socials from "./components/fixedSocials";
 import Contacts from "./components/fixedContact";
+import About from "./components/about";
+import Skills from "./components/skills";
+import Experience from "./components/experience";
+import Projects from "./components/projects";
+import Contact from "./components/contact";
 
 const App = () => {
   const [loaderStyle, setLoaderStyle] = useState({ display: "block" });
@@ -25,8 +30,13 @@ const App = () => {
       <div className="main-app" style={appStyle}>
         <Navbar />
         <Landing />
-        <Socials/>
-        <Contacts/>
+        <Socials />
+        <Contacts />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Contact />
       </div>
     </div>
   );

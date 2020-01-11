@@ -9,9 +9,10 @@ const Landing = () => {
       <h2 className="hard">If it's hard, just call me John.</h2>
       <h1 className="intro">I build things for the web!</h1>
       <p className="desc">
-        I'm a full stack engineer born in Lisbon, Portugal, specializing in
-        building and mantaining high-quality, responsive apps or websites. I
-        love to learn and like to excel at all things tech.
+        I'm a full stack engineer born in Lisbon, Portugal, who loves to build
+        exceptional, high-quality web components, such as websites, applications
+        or even natural language understanding virtual assistants. Give me
+        something to build on the web, and I'll do it!
       </p>
       <button className="find-more">Find more!</button>
     </main>
