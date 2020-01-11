@@ -3,7 +3,7 @@
 .navbar {
   font-family: "Inconsolata", monospace;
   background-color: $darker-primary;
-  box-shadow: 0 2px 2px -2px $dark-secondary;
+  box-shadow: 0 5px 2px -2px #091229;
   display: flex;
   justify-content: space-evenly;
   min-height: 5rem;
@@ -60,19 +60,19 @@
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #282c34;
+    background-color: #0c1733;
   }
 
   33% {
-    background-color: #343942;
+    background-color: #0e1c3f;
   }
 
   66% {
-    background-color: #424753;
+    background-color: #11214b;
   }
 
   100% {
-    background-color: #494f5c;
+    background-color: #172d64;
   }
 }
 

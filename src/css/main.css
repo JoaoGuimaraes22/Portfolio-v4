@@ -143,8 +143,8 @@ ul {
 .navbar {
   font-family: "Inconsolata", monospace;
   background-color: #0c1733;
-  -webkit-box-shadow: 0 2px 2px -2px #282c34;
-          box-shadow: 0 2px 2px -2px #282c34;
+  -webkit-box-shadow: 0 5px 2px -2px #091229;
+          box-shadow: 0 5px 2px -2px #091229;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,31 +225,31 @@ ul {
 
 @-webkit-keyframes fadeOpacity {
   0% {
-    background-color: #282c34;
+    background-color: #0c1733;
   }
   33% {
-    background-color: #343942;
+    background-color: #0e1c3f;
   }
   66% {
-    background-color: #424753;
+    background-color: #11214b;
   }
   100% {
-    background-color: #494f5c;
+    background-color: #172d64;
   }
 }
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #282c34;
+    background-color: #0c1733;
   }
   33% {
-    background-color: #343942;
+    background-color: #0e1c3f;
   }
   66% {
-    background-color: #424753;
+    background-color: #11214b;
   }
   100% {
-    background-color: #494f5c;
+    background-color: #172d64;
   }
 }
 
@@ -351,9 +351,42 @@ ul {
 
 .landing .desc {
   padding-top: 2.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #ccd6f69c;
   width: 55%;
+}
+
+.landing .find-more {
+  cursor: pointer;
+  margin-top: 2.2rem;
+  outline: none;
+  background: transparent;
+  color: #61dafb;
+  border: 2px #61dafb solid;
+  padding: 1rem;
+  border-radius: 13%;
+}
+
+.landing .find-more:hover {
+  -webkit-animation: fadeOpacity 0.4s;
+          animation: fadeOpacity 0.4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #0c1733;
+  }
+  33% {
+    background-color: #0e1c3f;
+  }
+  66% {
+    background-color: #11214b;
+  }
+  100% {
+    background-color: #172d64;
+  }
 }
 
 .socials {
@@ -375,9 +408,15 @@ ul {
   left: 7rem;
 }
 
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+
 .socials .icon {
   margin-bottom: 1.8rem;
   cursor: pointer;
+  color: white;
 }
 
 .socials .icon:hover {
@@ -386,6 +425,48 @@ ul {
 
 .socials .line {
   border-left: 1px white solid;
-  padding-bottom: 10rem;
+  padding-bottom: 7rem;
+}
+
+.fixed-contacts {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 0;
+  right: -3.5rem;
+}
+
+.fixed-contacts a {
+  text-decoration: none;
+  color: white;
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 0.2rem;
+}
+
+.fixed-contacts a:hover {
+  color: #61dafb;
+}
+
+.fixed-contacts .c-text {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-bottom: 13rem;
+  font-size: 1rem;
+}
+
+.fixed-contacts .line {
+  border-left: 1px white solid;
+  padding-top: 7rem;
 }
 /*# sourceMappingURL=main.css.map */

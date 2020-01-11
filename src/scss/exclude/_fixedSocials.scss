@@ -1,19 +1,24 @@
 @import "./variables";
 
-.socials{
-    position: fixed;
-    @include Flex(column);
-    bottom: 0;
-    left: 7rem;
-    .icon{
-        margin-bottom: 1.8rem;
-        cursor: pointer;
-    }
-    .icon:hover{
-        color: $blue-primary;
-    }
-    .line{
-        border-left: 1px white solid;
-        padding-bottom: 10rem;
-    }
+.socials {
+  position: fixed;
+  @include Flex(column);
+  bottom: 0;
+  left: 7rem;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .icon {
+    margin-bottom: 1.8rem;
+    cursor: pointer;
+    color: white;
+  }
+  .icon:hover {
+    color: $blue-primary;
+  }
+  .line {
+    border-left: 1px white solid;
+    padding-bottom: 7rem;
+  }
 }

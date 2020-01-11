@@ -18,7 +18,7 @@
     font-size: 6rem;
     padding-top: 1rem;
   }
-  .hard{
+  .hard {
     font-family: $font-other;
     font-size: 1.2rem;
   }
@@ -29,8 +29,40 @@
   }
   .desc {
     padding-top: 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #ccd6f69c;
     width: 55%;
+  }
+  .find-more {
+    cursor: pointer;
+    margin-top: 2.2rem;
+    outline: none;
+    background: transparent;
+    color: $blue-primary;
+    border: 2px $blue-primary solid;
+    padding: 1rem;
+    border-radius: 13%;
+  }
+  .find-more:hover {
+    animation: fadeOpacity 0.4s;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #0c1733;
+  }
+
+  33% {
+    background-color: #0e1c3f;
+  }
+
+  66% {
+    background-color: #11214b;
+  }
+
+  100% {
+    background-color: #172d64;
   }
 }

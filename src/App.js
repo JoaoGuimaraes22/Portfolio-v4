@@ -4,6 +4,7 @@ import Loading from "./components/loading";
 import Navbar from "./components/navbar";
 import Landing from "./components/landing";
 import Socials from "./components/fixedSocials";
+import Contacts from "./components/fixedContact";
 
 const App = () => {
   const [loaderStyle, setLoaderStyle] = useState({ display: "block" });
@@ -25,6 +26,7 @@ const App = () => {
         <Navbar />
         <Landing />
         <Socials/>
+        <Contacts/>
       </div>
     </div>
   );

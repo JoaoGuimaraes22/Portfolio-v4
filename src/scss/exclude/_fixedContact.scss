@@ -1,0 +1,27 @@
+@import "./variables";
+
+.fixed-contacts {
+  position: fixed;
+  @include Flex(column);
+  bottom: 0;
+  right: -3.5rem;
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: $font-other;
+    letter-spacing: 0.2rem;
+  }
+  a:hover {
+    color: $blue-primary;
+  }
+  .c-text {
+    transform: rotate(-90deg);
+    margin-bottom: 13rem;
+    font-size: 1rem;
+  }
+
+  .line {
+    border-left: 1px white solid;
+    padding-top: 7rem;
+  }
+}
