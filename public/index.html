@@ -13,6 +13,10 @@
       href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"
+    ></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -27,5 +31,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript">
+      (function() {
+        emailjs.init("user_UyJVSBUcz3FPK1w6dUBE8");
+      })();
+    </script>
   </body>
 </html>
