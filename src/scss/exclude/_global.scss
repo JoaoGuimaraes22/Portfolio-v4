@@ -9,11 +9,12 @@
 html {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu,
     Cantarell, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background: $darker-primary;
-  color: $light-secondary;
+  color: $gray;
 }
 
 a {

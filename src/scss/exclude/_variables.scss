@@ -5,8 +5,8 @@
 $blue-primary: #61dafb;
 $darker-primary: #0c1733;
 $dark-secondary: #282c34;
-$light-secondary: #ccd6f6;
-
+$gray: #ccd6f6;
+$grey: #ccd6f69c;
 $font-other: "Inconsolata", monospace;
 
 //Flex-center
@@ -16,4 +16,14 @@ $font-other: "Inconsolata", monospace;
   justify-content: center;
   align-items: center;
   flex-direction: $dir;
+}
+
+@mixin Spacing {
+  padding-top: 8rem;
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }

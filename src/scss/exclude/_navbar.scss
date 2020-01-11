@@ -29,7 +29,7 @@
     @include Flex(row);
     &-item {
       a {
-        color: $light-secondary;
+        color: $gray;
         margin-right: 2rem;
         .nav-links-num {
           color: $blue-primary;

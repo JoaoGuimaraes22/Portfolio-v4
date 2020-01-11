@@ -18,7 +18,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar" style={navPos}>
+    <nav className="navbar" id="navbar" style={navPos}>
       <h2 className="logo">
         <span className="logo-minus">&#60;</span>
         <span className="logo-main">JSSG</span>
@@ -26,27 +26,27 @@ const Navbar = () => {
       </h2>
       <ul className="nav-list">
         <li className="nav-list-item">
-          <a href=".about">
+          <a href="#about">
             <span className="nav-links-num">01. </span>About
           </a>
         </li>
         <li className="nav-list-item">
-          <a href=".skills">
+          <a href="#skills">
             <span className="nav-links-num">02. </span>Skills
           </a>
         </li>
         <li className="nav-list-item">
-          <a href=".experience">
+          <a href="#experience">
             <span className="nav-links-num">03. </span>Experience
           </a>
         </li>
         <li className="nav-list-item">
-          <a href=".projects">
+          <a href="#projects">
             <span className="nav-links-num">04. </span>Projects
           </a>
         </li>
         <li className="nav-list-item">
-          <a href=".contact">
+          <a href="#contact">
             <span className="nav-links-num">05. </span>Contact
           </a>
         </li>

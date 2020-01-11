@@ -1,0 +1,45 @@
+@import "./variables";
+
+.about {
+  @include Spacing();
+  padding-top: 10rem;
+  color: white;
+  .ab-title {
+    font-family: $font-other;
+    @include Flex(row);
+    .ab-title-text {
+      font-size: 2rem;
+      font-family: $font-other;
+    }
+    .ab-num {
+      color: $blue-primary;
+    }
+    .line {
+      border: $grey 0.5px solid;
+      margin-left: 1.2rem;
+      padding-left: 13.5rem;
+    }
+  }
+  .about-main {
+    @include Flex(row);
+    padding-top: 2rem;
+    .main-text {
+      .desc {
+        width: 70%;
+        line-height: 1.7rem;
+        padding-top: 2rem;
+        color: $grey;
+      }
+      .desc-2 {
+        width: 70%;
+        line-height: 1.7rem;
+        padding-top: 2rem;
+        color: $grey;
+      }
+    }
+    .img {
+      max-width: 19rem;
+      border-radius: 1%;
+    }
+  }
+}

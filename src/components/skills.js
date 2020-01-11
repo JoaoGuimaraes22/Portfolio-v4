@@ -4,6 +4,9 @@ import "../css/main.css";
 const Skills = () => {
   return (
     <div className="skills" id="skills">
+      <h1 className="skills-title">
+        <span className="skills-num">02. </span>Skills
+      </h1>
       <div className="tech-lists">
         <ul className="list list-1">
           <li className="list-item">C#, .NET</li>
