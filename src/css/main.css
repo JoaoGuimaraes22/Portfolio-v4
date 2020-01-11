@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: #20232a;
+  background: #0c1733;
   color: #ccd6f6;
 }
 
@@ -73,7 +73,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  background: #20232a;
+  background: #0c1733;
 }
 
 .loading .logo {
@@ -142,7 +142,7 @@ ul {
 
 .navbar {
   font-family: "Inconsolata", monospace;
-  background-color: #20232a;
+  background-color: #0c1733;
   -webkit-box-shadow: 0 2px 2px -2px #282c34;
           box-shadow: 0 2px 2px -2px #282c34;
   display: -webkit-box;
@@ -338,16 +338,54 @@ ul {
   padding-top: 1rem;
 }
 
+.landing .hard {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.2rem;
+}
+
 .landing .intro {
-  padding-top: 1.2rem;
-  font-size: 2.5rem;
+  padding-top: 2.5rem;
+  font-size: 3rem;
   color: #ccd6f69c;
 }
 
 .landing .desc {
-  padding-top: 3rem;
+  padding-top: 2.5rem;
   font-size: 1.2rem;
   color: #ccd6f69c;
   width: 55%;
+}
+
+.socials {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 0;
+  left: 7rem;
+}
+
+.socials .icon {
+  margin-bottom: 1.8rem;
+  cursor: pointer;
+}
+
+.socials .icon:hover {
+  color: #61dafb;
+}
+
+.socials .line {
+  border-left: 1px white solid;
+  padding-bottom: 10rem;
 }
 /*# sourceMappingURL=main.css.map */

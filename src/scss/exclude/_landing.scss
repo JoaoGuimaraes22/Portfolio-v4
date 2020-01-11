@@ -18,13 +18,17 @@
     font-size: 6rem;
     padding-top: 1rem;
   }
+  .hard{
+    font-family: $font-other;
+    font-size: 1.2rem;
+  }
   .intro {
-    padding-top: 1.2rem;
-    font-size: 2.5rem;
+    padding-top: 2.5rem;
+    font-size: 3rem;
     color: #ccd6f69c;
   }
   .desc {
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     font-size: 1.2rem;
     color: #ccd6f69c;
     width: 55%;

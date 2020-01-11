@@ -3,6 +3,7 @@ import "./css/main.css";
 import Loading from "./components/loading";
 import Navbar from "./components/navbar";
 import Landing from "./components/landing";
+import Socials from "./components/fixedSocials";
 
 const App = () => {
   const [loaderStyle, setLoaderStyle] = useState({ display: "block" });
@@ -23,6 +24,7 @@ const App = () => {
       <div className="main-app" style={appStyle}>
         <Navbar />
         <Landing />
+        <Socials/>
       </div>
     </div>
   );
