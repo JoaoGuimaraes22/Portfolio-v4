@@ -9,6 +9,8 @@ $gray: #ccd6f6;
 $grey: #ccd6f69c;
 $font-other: "Inconsolata", monospace;
 
+//Highlighter
+
 //Flex-center
 
 @mixin Flex($dir) {
@@ -17,6 +19,8 @@ $font-other: "Inconsolata", monospace;
   align-items: center;
   flex-direction: $dir;
 }
+
+//Spacing components normal
 
 @mixin Spacing {
   padding-top: 8rem;
