@@ -638,16 +638,18 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 4rem;
-  width: 44%;
   text-align: justify;
   margin: 0 auto;
   color: #ccd6f69c;
   line-height: 1.6rem;
+  max-width: 44%;
 }
 
 .skills .desc .skills-desc-2 {
-  padding-top: 1.8rem;
-  margin-left: -7rem;
+  padding-top: 3rem;
+  text-align: justify;
+  color: #ccd6f6;
+  font-family: "Inconsolata", monospace;
 }
 
 .skills .tech-lists {
@@ -665,18 +667,70 @@ ul {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding-top: 1.7rem;
 }
 
 .skills .tech-lists .list {
   list-style-type: circle;
   list-style: #61dafb;
-  padding: 0 3rem;
+  padding: 0 4.5rem;
 }
 
 .skills .tech-lists .list .list-item {
   font-family: "Inconsolata", monospace;
   padding-top: 0.5rem;
+}
+
+.projects {
+  padding-top: 8rem;
+  margin: 0 auto;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 8rem;
+}
+
+.projects .projects-text {
+  font-family: "Inconsolata", monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.projects .projects-text .projects-title {
+  font-size: 2rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.projects .projects-text .projects-title .projects-num {
+  color: #61dafb;
+}
+
+.projects .projects-text .line {
+  border: #ccd6f69c 0.5px solid;
+  margin-left: 1.2rem;
+  padding-left: 13.5rem;
 }
 
 .contact {

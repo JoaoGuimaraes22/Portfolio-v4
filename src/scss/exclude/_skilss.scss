@@ -28,25 +28,27 @@
   .desc {
     @include Flex(column);
     padding-top: 4rem;
-    width: 44%;
     text-align: justify;
     margin: 0 auto;
     color: $grey;
     line-height: 1.6rem;
+    max-width: 44%;
     .skills-desc-2 {
-      padding-top: 1.8rem;
-      margin-left: -7rem;
+      padding-top: 3rem;
+      text-align: justify;
+      color: $gray;
+      font-family: $font-other;
     }
   }
 
   .tech-lists {
     @include Flex(row);
     margin: 0 auto;
-    padding-top: 2rem;
+    padding-top: 1.7rem;
     .list {
       list-style-type: circle;
       list-style: $blue-primary;
-      padding: 0 3rem;
+      padding: 0 4.5rem;
       .list-item {
         font-family: $font-other;
         padding-top: 0.5rem;

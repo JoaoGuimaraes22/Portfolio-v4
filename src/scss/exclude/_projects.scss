@@ -1,0 +1,22 @@
+@import "./variables";
+
+.projects {
+  @include Spacing();
+  padding-top: 8rem;
+  .projects-text {
+    font-family: $font-other;
+    @include Flex(row);
+    .projects-title {
+      font-size: 2rem;
+      font-family: $font-other;
+      .projects-num {
+        color: $blue-primary;
+      }
+    }
+    .line {
+      border: $grey 0.5px solid;
+      margin-left: 1.2rem;
+      padding-left: 13.5rem;
+    }
+  }
+}
