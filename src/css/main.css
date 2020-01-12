@@ -456,6 +456,7 @@ ul {
           flex-direction: column;
   bottom: 0;
   right: -3.5rem;
+  z-index: -22;
 }
 
 .fixed-contacts a {
@@ -757,14 +758,125 @@ ul {
 }
 
 .projects .projects-container {
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 
-.projects .projects-container .project-1 .project-container {
-  background-image: url("/src/img/project.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+.projects .projects-container .project-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.projects .projects-container .project-1 .project-main-part .project-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.projects .projects-container .project-1 .project-main-part .project-text .text-main-text .featured {
+  color: #61dafb;
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+}
+
+.projects .projects-container .project-1 .project-main-part .project-text .text-main-text .project-name {
+  padding-top: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.projects .projects-container .project-1 .project-main-part .project-text .icons {
+  padding-left: 2.3rem;
+}
+
+.projects .projects-container .project-1 .project-main-part .project-text .icons .icon {
+  padding-right: 1.6rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.projects .projects-container .project-1 .project-main-part .project-text .icons .icon:hover::before {
+  color: #61dafb;
+}
+
+.projects .projects-container .project-1 .project-main-part .project-description {
+  width: 90%;
+  padding-top: 1.5rem;
+}
+
+.projects .projects-container .project-1 .project-main-part .project-description .project-desc-text {
+  color: #ccd6f69c;
+}
+
+.projects .projects-container .project-1 .project-techs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+.projects .projects-container .project-1 .project-techs .tech-name {
+  margin-right: 2rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.projects .projects-container .project-img-part {
+  position: relative;
+  cursor: pointer;
+}
+
+.projects .projects-container .project-img-part .project-container {
+  width: 100%;
+  min-width: 30rem;
+  height: auto;
+  display: block;
+}
+
+.projects .projects-container .project-img-part .overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(96, 217, 251, 0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.projects .projects-container .project-img-part .overlay .ov-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.projects .projects-container .project-img-part:hover .overlay {
+  bottom: 0;
+  height: 100%;
 }
 
 .contact {
