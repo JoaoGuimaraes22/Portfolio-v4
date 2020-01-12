@@ -3,8 +3,8 @@ import "../css/main.css";
 
 const Skills = () => {
   return (
-    <div className="skills" id="skills">
-      <div className="skills-text">
+    <div className="skills">
+      <div className="skills-text" id="skills">
         <div className="line-one"></div>
         <h1 className="skills-title">
           <span className="skills-num">02. </span>My Skills
@@ -25,7 +25,7 @@ const Skills = () => {
       </div>
 
       <div className="tech-lists">
-        <ul className="list list-1">
+        <ul className="list list-one">
           <li className="list-item">C#, .NET</li>
           <li className="list-item">ASP.NET</li>
           <li className="list-item">SQL, MySQL</li>
@@ -33,7 +33,7 @@ const Skills = () => {
           <li className="list-item">Azure</li>
           <li className="list-item">Firebase</li>
         </ul>
-        <ul className="list list-2">
+        <ul className="list list-two">
           <li className="list-item">JavaScript (ES6+)</li>
           <li className="list-item">React</li>
           <li className="list-item">HTML, CSS, SCSS</li>

@@ -11,7 +11,7 @@ const Navbar = () => {
       if (prevScrollpos > currentScrollPos) {
         setNavPos({ top: "0" });
       } else {
-        setNavPos({ animation: "gone 0.5s", animationFillMode: "forwards" });
+        setNavPos({ animation: "gone 0.3s", animationFillMode: "forwards" });
       }
       prevScrollpos = currentScrollPos;
     };

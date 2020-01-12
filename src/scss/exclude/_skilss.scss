@@ -17,6 +17,7 @@
       font-family: $font-other;
       .skills-num {
         color: $blue-primary;
+        font-size: 1.8rem;
       }
     }
     .line {
@@ -48,11 +49,16 @@
     .list {
       list-style-type: circle;
       list-style: $blue-primary;
-      padding: 0 4.5rem;
       .list-item {
         font-family: $font-other;
         padding-top: 0.5rem;
       }
+    }
+    .list-one {
+      padding: 0 6rem;
+    }
+    .list-two {
+      padding: 0 4rem;
     }
   }
 }

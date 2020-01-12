@@ -3,7 +3,7 @@
 .navbar {
   font-family: "Inconsolata", monospace;
   background-color: $darker-primary;
-  box-shadow: 0 5px 2px -2px #091229;
+  box-shadow: 0 5px 2px -2px #0d1938;
   display: flex;
   justify-content: space-evenly;
   min-height: 5rem;
@@ -78,19 +78,22 @@
 
 @keyframes gone {
   0% {
-    top: -20px;
+    top: 0px;
   }
 
-  33% {
+  25% {
+    top: -20px;
+  }
+  50% {
     top: -40px;
   }
 
-  66% {
+  75% {
     top: -60px;
   }
 
   100% {
-    top: -100px;
+    top: -80px;
   }
 }
 

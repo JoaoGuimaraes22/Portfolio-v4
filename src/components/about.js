@@ -4,8 +4,8 @@ import Me from "../img/Me.jpg";
 
 const About = () => {
   return (
-    <div className="about" id="about">
-      <div className="ab-title">
+    <div className="about">
+      <div className="ab-title" id="about">
         <h4 className="ab-title-text">
           <span className="ab-num">01. </span>About Me
         </h4>

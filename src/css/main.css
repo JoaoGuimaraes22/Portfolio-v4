@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: #0c1733;
+  background: #101f46;
   color: #ccd6f6;
 }
 
@@ -78,7 +78,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  background: #0c1733;
+  background: #101f46;
 }
 
 .loading .logo {
@@ -147,9 +147,9 @@ ul {
 
 .navbar {
   font-family: "Inconsolata", monospace;
-  background-color: #0c1733;
-  -webkit-box-shadow: 0 5px 2px -2px #091229;
-          box-shadow: 0 5px 2px -2px #091229;
+  background-color: #101f46;
+  -webkit-box-shadow: 0 5px 2px -2px #0d1938;
+          box-shadow: 0 5px 2px -2px #0d1938;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -260,31 +260,37 @@ ul {
 
 @-webkit-keyframes gone {
   0% {
+    top: 0px;
+  }
+  25% {
     top: -20px;
   }
-  33% {
+  50% {
     top: -40px;
   }
-  66% {
+  75% {
     top: -60px;
   }
   100% {
-    top: -100px;
+    top: -80px;
   }
 }
 
 @keyframes gone {
   0% {
+    top: 0px;
+  }
+  25% {
     top: -20px;
   }
-  33% {
+  50% {
     top: -40px;
   }
-  66% {
+  75% {
     top: -60px;
   }
   100% {
-    top: -100px;
+    top: -80px;
   }
 }
 
@@ -519,6 +525,7 @@ ul {
 }
 
 .about .ab-title .ab-num {
+  font-size: 1.8rem;
   color: #61dafb;
 }
 
@@ -615,6 +622,7 @@ ul {
 
 .skills .skills-text .skills-title .skills-num {
   color: #61dafb;
+  font-size: 1.8rem;
 }
 
 .skills .skills-text .line {
@@ -673,12 +681,19 @@ ul {
 .skills .tech-lists .list {
   list-style-type: circle;
   list-style: #61dafb;
-  padding: 0 4.5rem;
 }
 
 .skills .tech-lists .list .list-item {
   font-family: "Inconsolata", monospace;
   padding-top: 0.5rem;
+}
+
+.skills .tech-lists .list-one {
+  padding: 0 6rem;
+}
+
+.skills .tech-lists .list-two {
+  padding: 0 4rem;
 }
 
 .projects {
@@ -716,6 +731,13 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 0 auto;
+}
+
+.projects .projects-text .line-1 {
+  border: #ccd6f69c 0.5px solid;
+  padding-left: 13.5rem;
+  margin-right: 1.2rem;
 }
 
 .projects .projects-text .projects-title {
@@ -725,12 +747,24 @@ ul {
 
 .projects .projects-text .projects-title .projects-num {
   color: #61dafb;
+  font-size: 1.8rem;
 }
 
 .projects .projects-text .line {
   border: #ccd6f69c 0.5px solid;
   margin-left: 1.2rem;
   padding-left: 13.5rem;
+}
+
+.projects .projects-container {
+  padding-top: 4rem;
+}
+
+.projects .projects-container .project-1 .project-container {
+  background-image: url("/src/img/project.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .contact {
