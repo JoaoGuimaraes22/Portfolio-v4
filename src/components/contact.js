@@ -8,7 +8,7 @@ const Contact = () => {
   const myScrollFunc = () => {
     window.addEventListener("scroll", () => {
       let y = window.scrollY;
-      if (y >= 4700) {
+      if (y >= 4600) {
         setAnimate({
           visibility: "visible",
           animation: "appear 1s",

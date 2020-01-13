@@ -20,28 +20,28 @@ const Projects = () => {
           animationFillMode: "forwards"
         });
       }
-      if (y >= 1950) {
+      if (y >= 1850) {
         setAnimate1({
           visibility: "visible",
           animation: "appear 1.3s",
           animationFillMode: "forwards"
         });
       }
-      if (y >= 2200) {
+      if (y >= 2100) {
         setAnimate2({
           visibility: "visible",
           animation: "appear 1.3s",
           animationFillMode: "forwards"
         });
       }
-      if (y >= 2350) {
+      if (y >= 2250) {
         setAnimate3({
           visibility: "visible",
           animation: "appear 1.3s",
           animationFillMode: "forwards"
         });
       }
-      if (y >= 2650) {
+      if (y >= 2550) {
         setAnimate4({
           visibility: "visible",
           animation: "appear 1.3s",
