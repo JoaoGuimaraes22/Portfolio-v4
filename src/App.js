@@ -7,9 +7,9 @@ import Socials from "./components/fixedSocials";
 import Contacts from "./components/fixedContact";
 import About from "./components/about";
 import Skills from "./components/skills";
-import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
+import Experience from "./components/experience";
 
 const App = () => {
   const [loaderStyle, setLoaderStyle] = useState({ display: "block" });
@@ -34,8 +34,8 @@ const App = () => {
         <Contacts />
         <About />
         <Skills />
-        <Experience />
         <Projects />
+        <Experience />
         <Contact />
       </div>
     </div>

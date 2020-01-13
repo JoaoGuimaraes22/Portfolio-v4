@@ -41,7 +41,11 @@ const Projects = () => {
           </div>
 
           <div className="project-img-part">
-            <img className="project-container" src={project}></img>
+            <img
+              className="project-container"
+              src={project}
+              alt="project"
+            ></img>
             <div className="overlay">
               <div className="ov-text">See project!</div>
             </div>
@@ -49,7 +53,11 @@ const Projects = () => {
         </div>
         <div className="project-2">
           <div className="project-img-part">
-            <img className="project-container" src={project}></img>
+            <img
+              className="project-container"
+              src={project}
+              alt="project"
+            ></img>
             <div className="overlay">
               <div className="ov-text">See project!</div>
             </div>
@@ -106,7 +114,11 @@ const Projects = () => {
           </div>
 
           <div className="project-img-part">
-            <img className="project-container" src={project}></img>
+            <img
+              className="project-container"
+              src={project}
+              alt="project"
+            ></img>
             <div className="overlay">
               <div className="ov-text">See project!</div>
             </div>
@@ -114,7 +126,11 @@ const Projects = () => {
         </div>
         <div className="project-2">
           <div className="project-img-part">
-            <img className="project-container" src={project}></img>
+            <img
+              className="project-container"
+              src={project}
+              alt="project"
+            ></img>
             <div className="overlay">
               <div className="ov-text">See project!</div>
             </div>
