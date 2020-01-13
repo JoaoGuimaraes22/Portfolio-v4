@@ -1,0 +1,28 @@
+@import "./variables";
+
+.footer {
+  @include Flex(column);
+  margin-top: 5rem;
+  background: #0c1836;
+  padding: 2rem;
+  .copyright {
+    font-size: 1.12rem;
+    font-family: $font-other;
+  }
+  .icons {
+    @include Flex(row);
+
+    .icon {
+      color: white;
+      margin: 0 1rem;
+      margin-top: 1rem;
+      font-size: 1rem;
+      a {
+        color: white;
+      }
+      a:hover {
+        color: $blue-primary;
+      }
+    }
+  }
+}

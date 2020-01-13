@@ -10,6 +10,7 @@ import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Experience from "./components/experience";
+import Footer from "./components/footer";
 
 const App = () => {
   const [loaderStyle, setLoaderStyle] = useState({ display: "block" });
@@ -37,6 +38,7 @@ const App = () => {
         <Projects />
         <Experience />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
