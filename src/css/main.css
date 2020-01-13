@@ -2021,6 +2021,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 999;
   margin-top: 5rem;
   background: #0c1836;
   padding: 2rem;

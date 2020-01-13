@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../css/main.css";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const [animate, setAnimate] = useState({ visibility: "hidden" });
+
+  const myScrollFunc = () => {
+    window.addEventListener("scroll", () => {
+      let y = window.scrollY;
+      if (y >= 4700) {
+        setAnimate({
+          visibility: "visible",
+          animation: "appear 1s",
+          animationFillMode: "forwards"
+        });
+      }
+    });
+  };
+
+  useEffect(() => {
+    myScrollFunc();
+  }, []);
+
   return (
-    <div className="contact" id="contact">
+    <div className="contact" id="contact" style={animate}>
       <div className="contact-text">
         <div className="line-1"></div>
         <h1 className="contact-title">

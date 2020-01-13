@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../css/main.css";
 
 const Skills = () => {
+  const [animate, setAnimate] = useState({ visibility: "hidden" });
+
+  const myScrollFunc = () => {
+    window.addEventListener("scroll", () => {
+      let y = window.scrollY;
+      if (y >= 1100) {
+        setAnimate({
+          visibility: "visible",
+          animation: "appear 1s",
+          animationFillMode: "forwards"
+        });
+      }
+    });
+  };
+
+  useEffect(() => {
+    myScrollFunc();
+  }, []);
+
   return (
-    <div className="skills">
+    <div className="skills" style={animate}>
       <div className="skills-text" id="skills">
         <div className="line-one"></div>
         <h1 className="skills-title">

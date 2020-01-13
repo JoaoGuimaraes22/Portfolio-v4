@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../css/main.css";
 import Me from "../img/Me.jpg";
 
 const About = () => {
+  const [animate, setAnimate] = useState({ visibility: "hidden" });
+
+  const myScrollFunc = () => {
+    window.addEventListener("scroll", () => {
+      let y = window.scrollY;
+      if (y >= 300) {
+        setAnimate({
+          visibility: "visible",
+          animation: "appear 1s",
+          animationFillMode: "forwards"
+        });
+      }
+    });
+  };
+
+  useEffect(() => {
+    myScrollFunc();
+  }, []);
+
   return (
-    <div className="about">
+    <div className="about" style={animate}>
       <div className="ab-title" id="about">
         <h4 className="ab-title-text">
           <span className="ab-num">01. </span>About Me

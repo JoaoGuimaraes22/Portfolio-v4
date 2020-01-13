@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../css/main.css";
 import {
   FaGithub,
@@ -10,8 +10,19 @@ import {
 } from "react-icons/fa";
 
 const Socials = () => {
+  const [animate, setAnimate] = useState({ display: "none" });
+
+  useEffect(() => {
+    setTimeout(() => {
+      setAnimate({
+        display: "flex",
+        animation: "appear 0.7s",
+        animationFillMode: "forwards"
+      });
+    }, 1000);
+  });
   return (
-    <div className="socials" id="socials">
+    <div className="socials" id="socials" style={animate}>
       <a href="https://github.com/JoaoGuimaraes22" target="blank">
         <FaGithub className="icon" />
       </a>

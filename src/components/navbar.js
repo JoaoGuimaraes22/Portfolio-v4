@@ -19,7 +19,12 @@ const Navbar = () => {
 
   return (
     <nav className="navbar" id="navbar" style={navPos}>
-      <h2 className="logo">
+      <h2
+        className="logo"
+        onClick={() => {
+          window.location.reload();
+        }}
+      >
         <span className="logo-minus">&#60;</span>
         <span className="logo-main">JSSG</span>
         <span className="logo-greater">/&#62;</span>

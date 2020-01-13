@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../css/main.css";
-import unipartner from "../img/unipartner.png";
 import code from "../img/code.jpeg";
 import uni from "../img/uni.PNG";
 
 const Experience = () => {
+  const [animate, setAnimate] = useState({ visibility: "hidden" });
+
+  const myScrollFunc = () => {
+    window.addEventListener("scroll", () => {
+      let y = window.scrollY;
+      if (y >= 3500) {
+        setAnimate({
+          visibility: "visible",
+          animation: "appear 1s",
+          animationFillMode: "forwards"
+        });
+      }
+    });
+  };
+
+  useEffect(() => {
+    myScrollFunc();
+  }, []);
+
   return (
-    <div className="experience" id="experience">
+    <div className="experience" id="experience" style={animate}>
       <div className="exp-title">
         <h4 className="exp-title-text">
           <span className="exp-num">04. </span>What I've done

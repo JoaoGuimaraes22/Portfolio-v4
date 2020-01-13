@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../css/main.css";
 import project from "../img/project.png";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
+  const [animate, setAnimate] = useState({ visibility: "hidden" });
+
+  const myScrollFunc = () => {
+    window.addEventListener("scroll", () => {
+      let y = window.scrollY;
+      if (y >= 1800) {
+        setAnimate({
+          visibility: "visible",
+          animation: "appear 1s",
+          animationFillMode: "forwards"
+        });
+      }
+    });
+  };
+
+  useEffect(() => {
+    myScrollFunc();
+  }, []);
+
   return (
-    <div className="projects" id="projects">
+    <div className="projects" id="projects" style={animate}>
       <div className="projects-text">
         <div className="line-1"></div>
         <h1 className="projects-title">
