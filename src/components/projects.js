@@ -13,7 +13,7 @@ const Projects = () => {
   const myScrollFunc = () => {
     window.addEventListener("scroll", () => {
       let y = window.scrollY;
-      if (y >= 1800) {
+      if (y >= 1600) {
         setAnimate({
           visibility: "visible",
           animation: "appear 1.6s",
@@ -23,28 +23,28 @@ const Projects = () => {
       if (y >= 1950) {
         setAnimate1({
           visibility: "visible",
-          animation: "appear 2s",
+          animation: "appear 1.3s",
           animationFillMode: "forwards"
         });
       }
       if (y >= 2200) {
         setAnimate2({
           visibility: "visible",
-          animation: "appear 2s",
+          animation: "appear 1.3s",
           animationFillMode: "forwards"
         });
       }
       if (y >= 2350) {
         setAnimate3({
           visibility: "visible",
-          animation: "appear 2s",
+          animation: "appear 1.3s",
           animationFillMode: "forwards"
         });
       }
       if (y >= 2650) {
         setAnimate4({
           visibility: "visible",
-          animation: "appear 2s",
+          animation: "appear 1.3s",
           animationFillMode: "forwards"
         });
       }
