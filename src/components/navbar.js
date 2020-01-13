@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../css/main.css";
+import dummy from "../pdf/dummy.pdf";
 
 const Navbar = () => {
   const [navPos, setNavPos] = useState({ top: "0" });
@@ -56,7 +57,9 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      <button className="resume">Resume</button>
+      <a className="resume" href={dummy} target="blank">
+        Resume
+      </a>
     </nav>
   );
 };
