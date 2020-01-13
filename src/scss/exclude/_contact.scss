@@ -1,6 +1,6 @@
 .contact {
   @include Spacing();
-  padding-top: 10rem;
+  padding-top: 11rem;
   .contact-text {
     font-family: $font-other;
     @include Flex(row);

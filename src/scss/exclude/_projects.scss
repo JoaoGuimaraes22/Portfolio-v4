@@ -2,7 +2,7 @@
 
 .projects {
   @include Spacing();
-  padding-top: 8rem;
+  padding-top: 11rem;
   .projects-text {
     font-family: $font-other;
     @include Flex(row);

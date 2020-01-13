@@ -22,5 +22,48 @@
   }
   .exp-main {
     padding-top: 5rem;
+    .exp-time {
+      @include Flex(row);
+      padding-top: 1rem;
+      .text {
+        margin-bottom: 7rem;
+        .title {
+        }
+        .desc {
+          padding-top: 3rem;
+          width: 78%;
+        }
+      }
+      img {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        max-width: 28rem;
+        height: auto;
+        display: block;
+        margin-right: -1rem;
+      }
+    }
+    .exp-uni {
+      @include Flex(row);
+      padding-top: 6rem;
+      .uni-text {
+        margin-bottom: 7rem;
+        padding-left: 5rem;
+        .desc {
+          padding-top: 3rem;
+          width: 95%;
+        }
+      }
+      img {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        max-width: 28rem;
+        height: auto;
+        display: block;
+        margin-right: -1rem;
+      }
+    }
   }
 }
