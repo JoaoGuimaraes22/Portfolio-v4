@@ -1740,10 +1740,8 @@ ul {
   width: 78%;
 }
 
-.experience .exp-main .exp-time img {
+.experience .exp-main .exp-time a img {
   position: relative;
-  cursor: pointer;
-  width: 100%;
   max-width: 28rem;
   height: auto;
   display: block;
@@ -1777,10 +1775,8 @@ ul {
   width: 95%;
 }
 
-.experience .exp-main .exp-uni img {
+.experience .exp-main .exp-uni a img {
   position: relative;
-  cursor: pointer;
-  width: 100%;
   max-width: 28rem;
   height: auto;
   display: block;

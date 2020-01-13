@@ -43,13 +43,17 @@ const Experience = () => {
               incidunt! Sapiente, aspernatur.
             </p>
           </div>
-          <img src={code} alt="Time-As-Dev" className="time-img" />
+          <a href="#about">
+            <img src={code} alt="Time-As-Dev" className="time-img" />
+          </a>
         </div>
         <div className="exp-uni">
-          <img src={uni} alt="Unipartner-Logo" className="uni-img" />
+          <a href="https://www.unipartner.com/" target="blank">
+            <img src={uni} alt="Unipartner-Logo" className="uni-img" />
+          </a>
           <div className="uni-text text">
             <h2 className="title uni-title">
-              At <span className="bluer">Unipartner IT Services</span>
+              <span className="bluer">@</span> Unipartner IT Services
             </h2>
             <p className="desc uni-desc">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis

@@ -16,7 +16,7 @@ const Contacts = () => {
   return (
     <div className="fixed-contacts" id="fixed-contacts" style={animate}>
       <div className="c-text">
-        <a href="#landing">
+        <a href="#contact">
           <h6 className="fixed-contact-me">
             Contact me! - sebastiao.guimaraes@gmail.com
           </h6>
