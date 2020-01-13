@@ -144,6 +144,7 @@ const Projects = () => {
             </ul>
           </div>
         </div>
+
         <div className="projects-see-more">
           <button className="see-more">See Projects Archive</button>
         </div>

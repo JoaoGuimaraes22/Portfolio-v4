@@ -493,7 +493,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   bottom: 0;
-  left: 7rem;
+  left: 4rem;
 }
 
 .socials a {
@@ -547,7 +547,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   bottom: 0;
-  right: -3.5rem;
+  right: -6.5rem;
 }
 
 .fixed-contacts a {
@@ -1138,7 +1138,7 @@ ul {
 }
 
 .projects .projects-see-more {
-  padding-top: 4rem;
+  padding-top: 4.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1158,11 +1158,12 @@ ul {
   cursor: pointer;
   outline: none;
   background: transparent;
+  font-family: "Inconsolata", monospace;
   color: #61dafb;
   border: 2px #61dafb solid;
-  padding: 1rem;
-  font-weight: 600;
-  border-radius: 9%;
+  padding: 1.2rem 19rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .projects .projects-see-more .see-more:hover {
