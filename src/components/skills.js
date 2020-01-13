@@ -22,8 +22,8 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="skills" style={animate}>
-      <div className="skills-text" id="skills">
+    <div className="skills" style={animate} id="skills">
+      <div className="skills-text">
         <div className="line-one"></div>
         <h1 className="skills-title">
           <span className="skills-num">02. </span>My Skills

@@ -23,8 +23,8 @@ const About = () => {
   }, []);
 
   return (
-    <div className="about" style={animate}>
-      <div className="ab-title" id="about">
+    <div className="about" style={animate} id="about">
+      <div className="ab-title">
         <h4 className="ab-title-text">
           <span className="ab-num">01. </span>About Me
         </h4>
