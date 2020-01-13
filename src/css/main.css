@@ -1,30 +1,30 @@
 @-webkit-keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -102,16 +102,16 @@
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -164,7 +164,7 @@ html {
 }
 
 body {
-  background: #11224d;
+  background: #152a5f;
   color: #ccd6f6;
 }
 
@@ -218,16 +218,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -282,7 +282,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  background: #11224d;
+  background: #152a5f;
 }
 
 .loading .logo {
@@ -351,16 +351,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -402,7 +402,7 @@ ul {
 
 .navbar {
   font-family: "Inconsolata", monospace;
-  background-color: #11224d;
+  background-color: #152a5f;
   -webkit-box-shadow: 0 5px 2px -2px #0d1938;
           box-shadow: 0 5px 2px -2px #0d1938;
   display: -webkit-box;
@@ -599,16 +599,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -718,16 +718,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -808,16 +808,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -901,16 +901,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -1042,16 +1042,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -1218,16 +1218,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -1610,16 +1610,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
@@ -1956,16 +1956,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #11224d;
+    background-color: #152a5f;
   }
   33% {
-    background-color: #132553;
+    background-color: #172d66;
   }
   66% {
-    background-color: #142758;
+    background-color: #19316e;
   }
   100% {
-    background-color: #162c63;
+    background-color: #1c377c;
   }
 }
 
