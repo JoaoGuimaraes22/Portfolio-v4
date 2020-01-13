@@ -38,9 +38,11 @@
         color: $grey;
       }
     }
-    .img {
-      max-width: 19rem;
-      border-radius: 1%;
+    a {
+      .img {
+        max-width: 19rem;
+        border-radius: 1%;
+      }
     }
   }
 }

@@ -6,7 +6,7 @@ const Loading = () => {
     <div className="loading">
       <h2 className="logo">
         <span className="logo-minus">&#60;</span>
-        <span className="logo-main">JSSG</span>
+        <span className="logo-main">JG</span>
         <span className="logo-greater">/&#62;</span>
       </h2>
     </div>

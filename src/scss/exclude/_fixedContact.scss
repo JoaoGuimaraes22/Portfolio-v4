@@ -10,16 +10,16 @@
     color: white;
     font-family: $font-other;
     letter-spacing: 0.2rem;
+    .fixed-contact-me:hover {
+      color: $blue-primary;
+    }
   }
-  a:hover {
-    color: $blue-primary;
-  }
+
   .c-text {
     transform: rotate(-90deg);
     margin-bottom: 13rem;
     font-size: 1rem;
   }
-
   .line {
     border-left: 1px white solid;
     padding-top: 7rem;

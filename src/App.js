@@ -20,7 +20,7 @@ const App = () => {
     setTimeout(() => {
       setLoaderStyle({ display: "none" });
       setAppStyle({ display: "block" });
-    }, 1500);
+    }, 1700);
   }, []);
 
   return (

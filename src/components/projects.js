@@ -5,6 +5,10 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   const [animate, setAnimate] = useState({ visibility: "hidden" });
+  const [animate1, setAnimate1] = useState({ visibility: "hidden" });
+  const [animate2, setAnimate2] = useState({ visibility: "hidden" });
+  const [animate3, setAnimate3] = useState({ visibility: "hidden" });
+  const [animate4, setAnimate4] = useState({ visibility: "hidden" });
 
   const myScrollFunc = () => {
     window.addEventListener("scroll", () => {
@@ -12,7 +16,35 @@ const Projects = () => {
       if (y >= 1800) {
         setAnimate({
           visibility: "visible",
-          animation: "appear 1s",
+          animation: "appear 1.6s",
+          animationFillMode: "forwards"
+        });
+      }
+      if (y >= 1950) {
+        setAnimate1({
+          visibility: "visible",
+          animation: "appear 2s",
+          animationFillMode: "forwards"
+        });
+      }
+      if (y >= 2200) {
+        setAnimate2({
+          visibility: "visible",
+          animation: "appear 2s",
+          animationFillMode: "forwards"
+        });
+      }
+      if (y >= 2350) {
+        setAnimate3({
+          visibility: "visible",
+          animation: "appear 2s",
+          animationFillMode: "forwards"
+        });
+      }
+      if (y >= 2650) {
+        setAnimate4({
+          visibility: "visible",
+          animation: "appear 2s",
           animationFillMode: "forwards"
         });
       }
@@ -33,7 +65,7 @@ const Projects = () => {
         <div className="line"></div>
       </div>
       <div className="projects-container">
-        <div className="project-1">
+        <div className="project-1" style={animate1}>
           <div className="project-main-part">
             <div className="project-text">
               <div className="text-main-text">
@@ -70,7 +102,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-2">
+
+        <div className="project-2" style={animate2}>
           <div className="project-img-part">
             <img
               className="project-container"
@@ -106,7 +139,8 @@ const Projects = () => {
             </ul>
           </div>
         </div>
-        <div className="project-1">
+
+        <div className="project-1" style={animate3}>
           <div className="project-main-part">
             <div className="project-text">
               <div className="text-main-text">
@@ -143,7 +177,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-2">
+
+        <div className="project-2" style={animate4}>
           <div className="project-img-part">
             <img
               className="project-container"

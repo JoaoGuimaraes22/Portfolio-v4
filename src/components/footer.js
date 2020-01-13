@@ -12,7 +12,9 @@ import {
 const Footer = () => {
   return (
     <footer className="footer" id="footer">
-      <div className="copyright">Made by João Guimaraes &copy; 2020 </div>
+      <div className="copyright">
+        Made by João Guimaraes <span className="bluer">&copy; 2020</span>
+      </div>
       <div className="icons">
         <div className="icon">
           <a href="https://github.com/JoaoGuimaraes22" target="blank">

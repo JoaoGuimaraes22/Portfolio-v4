@@ -27,7 +27,7 @@ const Navbar = () => {
         }}
       >
         <span className="logo-minus">&#60;</span>
-        <span className="logo-main">JSSG</span>
+        <span className="logo-main">JG</span>
         <span className="logo-greater">/&#62;</span>
       </h2>
       <ul className="nav-list">

@@ -473,8 +473,10 @@ ul {
   background: transparent;
   color: #61dafb;
   border: 2px #61dafb solid;
-  padding: 0.7rem;
+  padding: 0.5rem;
   border-radius: 13%;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 .navbar .resume:hover {
@@ -797,6 +799,7 @@ ul {
 
 .socials .icon:hover {
   color: #61dafb;
+  padding-bottom: 1rem;
 }
 
 .socials .line {
@@ -881,7 +884,7 @@ ul {
   letter-spacing: 0.2rem;
 }
 
-.fixed-contacts a:hover {
+.fixed-contacts a .fixed-contact-me:hover {
   color: #61dafb;
 }
 
@@ -1033,7 +1036,7 @@ ul {
   color: #ccd6f69c;
 }
 
-.about .about-main .img {
+.about .about-main a .img {
   max-width: 19rem;
   border-radius: 1%;
 }

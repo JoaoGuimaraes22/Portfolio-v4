@@ -45,7 +45,9 @@ const About = () => {
             In, corporis. Lorem ipsum dolor sit, amet consectetur adipisicing
           </p>
         </div>
-        <img className="img" alt="Me" src={Me} />
+        <a href="https://github.com/JoaoGuimaraes22" target="blank">
+          <img className="img" alt="Me" src={Me} />
+        </a>
       </div>
     </div>
   );
