@@ -1,3 +1,48 @@
+@-webkit-keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +105,21 @@ ul {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
   }
 }
 
@@ -145,6 +205,21 @@ ul {
   }
 }
 
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
+}
+
 .navbar {
   font-family: "Inconsolata", monospace;
   background-color: #101f46;
@@ -163,6 +238,7 @@ ul {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 999;
 }
 
 .navbar .logo {
@@ -226,21 +302,6 @@ ul {
           animation: fadeOpacity 0.4s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes fadeOpacity {
-  0% {
-    background-color: #0c1733;
-  }
-  33% {
-    background-color: #0e1c3f;
-  }
-  66% {
-    background-color: #11214b;
-  }
-  100% {
-    background-color: #172d64;
-  }
 }
 
 @keyframes fadeOpacity {
@@ -318,6 +379,21 @@ ul {
   }
 }
 
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
+}
+
 .landing {
   padding-top: 8rem;
   margin: 0 auto;
@@ -364,7 +440,7 @@ ul {
   padding-top: 2.5rem;
   font-size: 1.1rem;
   color: #ccd6f69c;
-  width: 55%;
+  width: 65%;
 }
 
 .landing .find-more {
@@ -375,7 +451,8 @@ ul {
   color: #61dafb;
   border: 2px #61dafb solid;
   padding: 1rem;
-  border-radius: 13%;
+  font-weight: 600;
+  border-radius: 9%;
 }
 
 .landing .find-more:hover {
@@ -387,16 +464,16 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #0c1733;
+    background-color: #101f46;
   }
   33% {
-    background-color: #0e1c3f;
+    background-color: #132553;
   }
   66% {
-    background-color: #11214b;
+    background-color: #142758;
   }
   100% {
-    background-color: #172d64;
+    background-color: #162c63;
   }
 }
 
@@ -439,6 +516,21 @@ ul {
   padding-bottom: 7rem;
 }
 
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
+}
+
 .fixed-contacts {
   position: fixed;
   display: -webkit-box;
@@ -456,7 +548,6 @@ ul {
           flex-direction: column;
   bottom: 0;
   right: -3.5rem;
-  z-index: -22;
 }
 
 .fixed-contacts a {
@@ -480,6 +571,21 @@ ul {
 .fixed-contacts .line {
   border-left: 1px white solid;
   padding-top: 7rem;
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
 }
 
 .about {
@@ -570,6 +676,21 @@ ul {
 .about .about-main .img {
   max-width: 19rem;
   border-radius: 1%;
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
 }
 
 .skills {
@@ -697,6 +818,21 @@ ul {
   padding: 0 4rem;
 }
 
+@keyframes fadeOpacity {
+  0% {
+    background-color: #101f46;
+  }
+  33% {
+    background-color: #132553;
+  }
+  66% {
+    background-color: #142758;
+  }
+  100% {
+    background-color: #162c63;
+  }
+}
+
 .projects {
   padding-top: 8rem;
   margin: 0 auto;
@@ -757,10 +893,6 @@ ul {
   padding-left: 13.5rem;
 }
 
-.projects .projects-container {
-  padding-top: 5rem;
-}
-
 .projects .projects-container .project-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -775,6 +907,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-top: 8rem;
 }
 
 .projects .projects-container .project-1 .project-main-part .project-text {
@@ -801,22 +934,23 @@ ul {
 }
 
 .projects .projects-container .project-1 .project-main-part .project-text .icons {
-  padding-left: 2.3rem;
+  padding-left: 2.8rem;
 }
 
 .projects .projects-container .project-1 .project-main-part .project-text .icons .icon {
-  padding-right: 1.6rem;
+  padding-right: 1.5rem;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
-.projects .projects-container .project-1 .project-main-part .project-text .icons .icon:hover::before {
+.projects .projects-container .project-1 .project-main-part .project-text .icons .icon:hover {
   color: #61dafb;
 }
 
 .projects .projects-container .project-1 .project-main-part .project-description {
   width: 90%;
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
+  line-height: 1.4rem;
 }
 
 .projects .projects-container .project-1 .project-main-part .project-description .project-desc-text {
@@ -838,19 +972,19 @@ ul {
   font-family: "Inconsolata", monospace;
 }
 
-.projects .projects-container .project-img-part {
+.projects .projects-container .project-1 .project-img-part {
   position: relative;
   cursor: pointer;
 }
 
-.projects .projects-container .project-img-part .project-container {
+.projects .projects-container .project-1 .project-img-part .project-container {
   width: 100%;
-  min-width: 30rem;
+  min-width: 28rem;
   height: auto;
   display: block;
 }
 
-.projects .projects-container .project-img-part .overlay {
+.projects .projects-container .project-1 .project-img-part .overlay {
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -863,7 +997,7 @@ ul {
   transition: 0.5s ease;
 }
 
-.projects .projects-container .project-img-part .overlay .ov-text {
+.projects .projects-container .project-1 .project-img-part .overlay .ov-text {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -874,9 +1008,168 @@ ul {
   text-align: center;
 }
 
-.projects .projects-container .project-img-part:hover .overlay {
+.projects .projects-container .project-1 .project-img-part:hover .overlay {
   bottom: 0;
   height: 100%;
+}
+
+.projects .projects-container .project-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 8rem;
+}
+
+.projects .projects-container .project-2 .project-main-part {
+  margin-left: 2.8rem;
+}
+
+.projects .projects-container .project-2 .project-main-part .project-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.projects .projects-container .project-2 .project-main-part .project-text .text-main-text .featured {
+  color: #61dafb;
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+}
+
+.projects .projects-container .project-2 .project-main-part .project-text .text-main-text .project-name {
+  padding-top: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.projects .projects-container .project-2 .project-main-part .project-text .icons {
+  padding-left: 2.8rem;
+}
+
+.projects .projects-container .project-2 .project-main-part .project-text .icons .icon {
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.projects .projects-container .project-2 .project-main-part .project-text .icons .icon:hover {
+  color: #61dafb;
+}
+
+.projects .projects-container .project-2 .project-main-part .project-description {
+  width: 90%;
+  padding-top: 2.5rem;
+  line-height: 1.4rem;
+}
+
+.projects .projects-container .project-2 .project-main-part .project-description .project-desc-text {
+  color: #ccd6f69c;
+}
+
+.projects .projects-container .project-2 .project-techs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+.projects .projects-container .project-2 .project-techs .tech-name {
+  margin-right: 2rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.projects .projects-container .project-2 .project-img-part {
+  position: relative;
+  cursor: pointer;
+}
+
+.projects .projects-container .project-2 .project-img-part .project-container {
+  width: 100%;
+  min-width: 28rem;
+  height: auto;
+  display: block;
+}
+
+.projects .projects-container .project-2 .project-img-part .overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(96, 217, 251, 0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.projects .projects-container .project-2 .project-img-part .overlay .ov-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.projects .projects-container .project-2 .project-img-part:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.projects .projects-see-more {
+  padding-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects .projects-see-more .see-more {
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  color: #61dafb;
+  border: 2px #61dafb solid;
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: 9%;
+}
+
+.projects .projects-see-more .see-more:hover {
+  -webkit-animation: fadeOpacity 0.4s;
+          animation: fadeOpacity 0.4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .contact {

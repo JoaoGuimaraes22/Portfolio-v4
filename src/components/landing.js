@@ -7,7 +7,7 @@ const Landing = () => {
       <h6 className="hey">Hey, my name is</h6>
       <h1 className="name">João Guimarães.</h1>
       <h2 className="hard">If it's hard, just call me John.</h2>
-      <h1 className="intro">I build things for the web!</h1>
+      <h1 className="intro">I develop things for the web.</h1>
       <p className="desc">
         I'm a full stack engineer born in Lisbon, Portugal, who loves to build
         exceptional, high-quality web components, such as websites, applications

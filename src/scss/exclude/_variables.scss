@@ -31,3 +31,23 @@ $font-other: "Inconsolata", monospace;
   align-items: flex-start;
   flex-direction: column;
 }
+
+//Animate buttons
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: $darker-primary;
+  }
+
+  33% {
+    background-color: #132553;
+  }
+
+  66% {
+    background-color: #142758;
+  }
+
+  100% {
+    background-color: #162c63;
+  }
+}
