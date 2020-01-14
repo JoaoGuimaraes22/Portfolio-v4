@@ -2060,4 +2060,9 @@ ul {
 .footer .icons .icon a:hover {
   color: #61dafb;
 }
+
+.repos {
+  padding: 10rem;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
