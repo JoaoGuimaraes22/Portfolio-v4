@@ -7,10 +7,10 @@ const Skills = () => {
   const myScrollFunc = () => {
     window.addEventListener("scroll", () => {
       let y = window.scrollY;
-      if (y >= 1000) {
+      if (y >= 900) {
         setAnimate({
           visibility: "visible",
-          animation: "appear 1s",
+          animation: "appear 0.8s",
           animationFillMode: "forwards"
         });
       }

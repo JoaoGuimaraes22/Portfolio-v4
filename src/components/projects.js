@@ -13,14 +13,14 @@ const Projects = () => {
   const myScrollFunc = () => {
     window.addEventListener("scroll", () => {
       let y = window.scrollY;
-      if (y >= 1600) {
+      if (y >= 1500) {
         setAnimate({
           visibility: "visible",
           animation: "appear 1.6s",
           animationFillMode: "forwards"
         });
       }
-      if (y >= 1850) {
+      if (y >= 1750) {
         setAnimate1({
           visibility: "visible",
           animation: "appear 1.3s",
@@ -34,14 +34,14 @@ const Projects = () => {
           animationFillMode: "forwards"
         });
       }
-      if (y >= 2250) {
+      if (y >= 2350) {
         setAnimate3({
           visibility: "visible",
           animation: "appear 1.3s",
           animationFillMode: "forwards"
         });
       }
-      if (y >= 2550) {
+      if (y >= 2650) {
         setAnimate4({
           visibility: "visible",
           animation: "appear 1.3s",
@@ -215,7 +215,15 @@ const Projects = () => {
           </div>
         </div>
         <div className="projects-see-more">
-          <button className="see-more">See Projects Archive</button>
+          <button
+            to="/archive"
+            onClick={() => {
+              window.location.href = `http://localhost:3000/archive`;
+            }}
+            className="see-more"
+          >
+            See Projects Archive
+          </button>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ const Experience = () => {
   const myScrollFunc = () => {
     window.addEventListener("scroll", () => {
       let y = window.scrollY;
-      if (y >= 3600) {
+      if (y >= 3500) {
         setAnimate({
           visibility: "visible",
           animation: "appear 1s",
