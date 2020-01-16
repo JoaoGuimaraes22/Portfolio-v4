@@ -27,7 +27,7 @@
       padding-top: 1rem;
       .text {
         .desc {
-          padding-top: 3rem;
+          padding-top: 2rem;
           width: 78%;
           color: $grey;
           line-height: 1.4rem;
@@ -54,7 +54,7 @@
       .uni-text {
         padding-left: 5rem;
         .desc {
-          padding-top: 3rem;
+          padding-top: 2rem;
           width: 95%;
           color: $grey;
           line-height: 1.4rem;
@@ -74,6 +74,10 @@
           margin-right: -1rem;
         }
       }
+    }
+    .time-span {
+      font-family: $font-other;
+      font-size: 1rem;
     }
   }
 }

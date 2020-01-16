@@ -1735,7 +1735,7 @@ ul {
 }
 
 .experience .exp-main .exp-time .text .desc {
-  padding-top: 3rem;
+  padding-top: 2rem;
   width: 78%;
   color: #ccd6f69c;
   line-height: 1.4rem;
@@ -1777,7 +1777,7 @@ ul {
 }
 
 .experience .exp-main .exp-uni .uni-text .desc {
-  padding-top: 3rem;
+  padding-top: 2rem;
   width: 95%;
   color: #ccd6f69c;
   line-height: 1.4rem;
@@ -1795,6 +1795,11 @@ ul {
   height: auto;
   display: block;
   margin-right: -1rem;
+}
+
+.experience .exp-main .time-span {
+  font-family: "Inconsolata", monospace;
+  font-size: 1rem;
 }
 
 .contact {

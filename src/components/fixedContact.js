@@ -18,7 +18,7 @@ const Contacts = () => {
       <div className="c-text">
         <a href="#contact">
           <h6 className="fixed-contact-me">
-            Contact me! - sebastiao.guimaraes@gmail.com
+            Contact me! - jssgmrs22@gmail.com
           </h6>
         </a>
       </div>

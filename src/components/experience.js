@@ -36,6 +36,8 @@ const Experience = () => {
           <div className="text time-text">
             <h2 className="title time-title">
               Being a <span className="bluer">developer</span>
+              <br />
+              <span className="time-span">2016 - present</span>
             </h2>
             <p className="desc time-desc">
               Throughout the years, I've completed a lof of fun projects. <br />
@@ -68,6 +70,8 @@ const Experience = () => {
           <div className="uni-text text">
             <h2 className="title uni-title">
               <span className="bluer">@</span> Unipartner IT Services
+              <br />
+              <span className="time-span">2019 - present</span>
             </h2>
             <p className="desc uni-desc">
               During my time at Unipartner, I worked as full-stack developer,
