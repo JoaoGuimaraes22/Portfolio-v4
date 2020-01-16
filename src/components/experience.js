@@ -38,9 +38,14 @@ const Experience = () => {
               Being a <span className="bluer">developer</span>
             </h2>
             <p className="desc time-desc">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
-              officiis autem aliquid doloribus ab adipisci deleniti sed
-              incidunt! Sapiente, aspernatur.
+              Throughout the years, I've completed a lof of fun projects. <br />{" "}
+              <br />
+              My favorites where making virtual assistant bots using NLP and
+              different databases using Cortana, Azure, C# and Node.js, making
+              Augmented Reality mobile applications with Unity and C#, <br />
+              participating and ranking high in programming competitions <br />{" "}
+              and building and deploying full-stack websites (with the MERN
+              stack).
             </p>
           </div>
           <a href="#about">
@@ -56,9 +61,26 @@ const Experience = () => {
               <span className="bluer">@</span> Unipartner IT Services
             </h2>
             <p className="desc uni-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
-              impedit quos, maxime harum debitis sit eum asperiores! Officiis,
-              unde tempore?
+              During my time at Unipartner, I worked as full-stack developer,
+              mainly using the Microsoft Stack (C#, ASP.NET, Azure, Office 365
+              and Dynamics) and React.
+              <br />
+              <br />
+              What I did:
+              <ul className="desc-ul">
+                <li> Developed server-side programs for Banking Services.</li>
+                <li>
+                  {" "}
+                  Created a virtual assistant bot that helped handle interaction
+                  with non-portuguese emigrants seeking help from a financial
+                  services company.
+                </li>
+                <li>
+                  {" "}
+                  Participated in creating a React front-end for a Banking
+                  Service.
+                </li>
+              </ul>
             </p>
           </div>
         </div>

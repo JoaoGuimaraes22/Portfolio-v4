@@ -26,11 +26,11 @@
       @include Flex(row);
       padding-top: 1rem;
       .text {
-        margin-bottom: 7rem;
-
         .desc {
           padding-top: 3rem;
           width: 78%;
+          color: $grey;
+          line-height: 1.4rem;
         }
       }
       a {
@@ -45,13 +45,19 @@
     }
     .exp-uni {
       @include Flex(row);
-      padding-top: 6rem;
+      padding-top: 10rem;
       .uni-text {
-        margin-bottom: 7rem;
         padding-left: 5rem;
         .desc {
           padding-top: 3rem;
           width: 95%;
+          color: $grey;
+          line-height: 1.4rem;
+          .desc-ul {
+            list-style: disc;
+            padding-top: 0.4rem;
+            padding-left: 1rem;
+          }
         }
       }
       a {
