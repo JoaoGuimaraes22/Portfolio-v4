@@ -58,7 +58,7 @@ const Contact = () => {
             const template_id = "template_QZsjJVZa";
             emailjs
               .send(service_id, template_id, template_params, user_id)
-              .then(console.log("Sucess"))
+              .then(alert("Your message was sent!"))
               .catch((err) => {
                 console.log("Error: ", err);
               });

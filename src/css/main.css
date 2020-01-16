@@ -403,8 +403,8 @@ ul {
 .navbar {
   font-family: "Inconsolata", monospace;
   background-color: #152a5f;
-  -webkit-box-shadow: 0 5px 2px -2px #0d1938;
-          box-shadow: 0 5px 2px -2px #0d1938;
+  -webkit-box-shadow: -3px 1px 24px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: -3px 1px 24px 1px rgba(0, 0, 0, 0.7);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1000,7 +1000,7 @@ ul {
 }
 
 .about .ab-title .line {
-  border: #ccd6f69c 0.5px solid;
+  border: #e9ecf7ad 0.5px solid;
   margin-left: 1.2rem;
   padding-left: 13.5rem;
 }
@@ -1026,14 +1026,14 @@ ul {
   width: 70%;
   line-height: 1.7rem;
   padding-top: 2rem;
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
 }
 
 .about .about-main .main-text .desc-2 {
   width: 70%;
   line-height: 1.7rem;
   padding-top: 2rem;
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
 }
 
 .about .about-main a .img {
@@ -1131,7 +1131,7 @@ ul {
 }
 
 .skills .skills-text .line-one {
-  border: #ccd6f69c 0.5px solid;
+  border: #e9ecf7ad 0.5px solid;
   padding-left: 13.5rem;
   margin-right: 1.2rem;
 }
@@ -1147,7 +1147,7 @@ ul {
 }
 
 .skills .skills-text .line {
-  border: #ccd6f69c 0.5px solid;
+  border: #e9ecf7ad 0.5px solid;
   margin-left: 1.2rem;
   padding-left: 13.5rem;
 }
@@ -1169,9 +1169,9 @@ ul {
   padding-top: 4rem;
   text-align: justify;
   margin: 0 auto;
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
   line-height: 1.6rem;
-  max-width: 44%;
+  max-width: 40%;
 }
 
 .skills .desc .skills-desc-2 {
@@ -1210,11 +1210,11 @@ ul {
 }
 
 .skills .tech-lists .list-one {
-  padding: 0 6rem;
+  padding: 0 4.5rem;
 }
 
 .skills .tech-lists .list-two {
-  padding: 0 4rem;
+  padding: 0 2.5rem;
 }
 
 @keyframes fadeOpacity {
@@ -1307,7 +1307,7 @@ ul {
 }
 
 .projects .projects-text .line-1 {
-  border: #ccd6f69c 0.5px solid;
+  border: #e9ecf7ad 0.5px solid;
   padding-left: 13.5rem;
   margin-right: 1.2rem;
 }
@@ -1323,7 +1323,7 @@ ul {
 }
 
 .projects .projects-text .line {
-  border: #ccd6f69c 0.5px solid;
+  border: #e9ecf7ad 0.5px solid;
   margin-left: 1.2rem;
   padding-left: 13.5rem;
 }
@@ -1389,7 +1389,7 @@ ul {
 }
 
 .projects .projects-container .project-1 .project-main-part .project-description .project-desc-text {
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
 }
 
 .projects .projects-container .project-1 .project-techs {
@@ -1513,7 +1513,7 @@ ul {
 }
 
 .projects .projects-container .project-2 .project-main-part .project-description .project-desc-text {
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
 }
 
 .projects .projects-container .project-2 .project-techs {
@@ -1708,7 +1708,7 @@ ul {
 }
 
 .experience .exp-title .line {
-  border: #ccd6f69c 0.5px solid;
+  border: #e9ecf7ad 0.5px solid;
   margin-left: 1.2rem;
   padding-left: 13.5rem;
 }
@@ -1737,7 +1737,7 @@ ul {
 .experience .exp-main .exp-time .text .desc {
   padding-top: 2rem;
   width: 88%;
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
   line-height: 1.4rem;
 }
 
@@ -1773,7 +1773,7 @@ ul {
 .experience .exp-main .exp-uni .uni-text .desc {
   padding-top: 2rem;
   width: 100%;
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
   line-height: 1.4rem;
 }
 
@@ -1795,7 +1795,7 @@ ul {
   padding-top: 0.4rem;
   padding-left: 1rem;
   width: 88%;
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
   line-height: 1.4rem;
 }
 
@@ -1838,7 +1838,7 @@ ul {
 }
 
 .contact .contact-text .line-1 {
-  border: #ccd6f69c 0.5px solid;
+  border: #e9ecf7ad 0.5px solid;
   padding-left: 13.5rem;
   margin-right: 1.2rem;
 }
@@ -1854,7 +1854,7 @@ ul {
 }
 
 .contact .contact-text .line {
-  border: #ccd6f69c 0.5px solid;
+  border: #e9ecf7ad 0.5px solid;
   margin-left: 1.2rem;
   padding-left: 13.5rem;
 }
@@ -1898,7 +1898,7 @@ ul {
 }
 
 .contact .contact-main .contact-subtitle .sub-text {
-  color: #ccd6f69c;
+  color: #e9ecf7ad;
   width: 75%;
 }
 
