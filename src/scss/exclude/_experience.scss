@@ -31,6 +31,11 @@
           width: 78%;
           color: $grey;
           line-height: 1.4rem;
+          .desc-ul {
+            list-style: disc;
+            padding-top: 0.4rem;
+            padding-left: 1rem;
+          }
         }
       }
       a {

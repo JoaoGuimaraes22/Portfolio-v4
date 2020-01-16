@@ -1741,6 +1741,12 @@ ul {
   line-height: 1.4rem;
 }
 
+.experience .exp-main .exp-time .text .desc .desc-ul {
+  list-style: disc;
+  padding-top: 0.4rem;
+  padding-left: 1rem;
+}
+
 .experience .exp-main .exp-time a img {
   position: relative;
   max-width: 28rem;

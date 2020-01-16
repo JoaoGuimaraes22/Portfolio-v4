@@ -38,14 +38,23 @@ const Experience = () => {
               Being a <span className="bluer">developer</span>
             </h2>
             <p className="desc time-desc">
-              Throughout the years, I've completed a lof of fun projects. <br />{" "}
-              <br />
-              My favorites where making virtual assistant bots using NLP and
-              different databases using Cortana, Azure, C# and Node.js, making
-              Augmented Reality mobile applications with Unity and C#, <br />
-              participating and ranking high in programming competitions <br />{" "}
-              and building and deploying full-stack websites (with the MERN
-              stack).
+              Throughout the years, I've completed a lof of fun projects. <br />
+              My favorites are:
+              <ul className="desc-ul">
+                <li>Making full stack websites using MERN stack.</li>
+                <li>
+                  Developed bot that uses Azure Machine Learning Technology and
+                  NLP, using C#.
+                </li>
+                <li>
+                  My news app for a local programming competition, called
+                  "AppsForGood".
+                </li>
+                <li>
+                  Making Augmented Reality mobile applications using Unity,
+                  ARFoundation and C#.
+                </li>
+              </ul>
             </p>
           </div>
           <a href="#about">
