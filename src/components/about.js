@@ -18,6 +18,13 @@ const About = () => {
     });
   };
 
+  const getAge = () => {
+    const date = new Date();
+    const currYear = date.getFullYear();
+    const myAge = currYear - 2001;
+    return myAge.toString();
+  };
+
   useEffect(() => {
     myScrollFunc();
   }, []);
@@ -33,16 +40,15 @@ const About = () => {
       <div className="about-main">
         <div className="main-text">
           <p className="desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            dicta fuga nemo distinctio eaque libero corrupti ea perspiciatis
-            culpa eius. Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Accusantium, Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Ea, illum
+            Hello! I'm João Guimarães, I'm a {getAge()} years old software
+            developer who enjoys building things that live on the web.
+            <br />
           </p>
           <p className="desc-2">
-            officiis? A in nemo corrupti! Ipsam adipisci esse nihil facere?
-            similique? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            In, corporis. Lorem ipsum dolor sit, amet consectetur adipisicing
+            My focus is on the development of modern and efficient websites, web
+            apps or services to provide users or companies with fully
+            responsive, pixel-perfect interfaces and exceptional, usefull
+            interaction.
           </p>
         </div>
         <a href="https://github.com/JoaoGuimaraes22" target="blank">

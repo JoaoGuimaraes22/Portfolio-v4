@@ -40,24 +40,24 @@ const Experience = () => {
               <span className="time-span">2016 - present</span>
             </h2>
             <p className="desc time-desc">
-              Throughout the years, I've completed a lof of fun projects. <br />
+              Throughout the years, I've completed a lof of fun projects. <br />{" "}
+              <br />
               My favorites are:
-              <ul className="desc-ul">
-                <li>Making full stack websites using MERN stack.</li>
-                <li>
-                  Developed bot that uses Azure Machine Learning Technology and
-                  NLP, using C#.
-                </li>
-                <li>
-                  My news app for a local programming competition, called
-                  "AppsForGood".
-                </li>
-                <li>
-                  Making Augmented Reality mobile applications using Unity,
-                  ARFoundation and C#.
-                </li>
-              </ul>
             </p>
+            <ul className="desc-ul">
+              <li>Making full stack websites using MERN stack.</li>
+              <li>
+                Developed a virtual assistant that uses Azure Machine Learning
+                Technology and NLP, using C#.
+              </li>
+              <li>
+                My news app for a local programming competition, called
+                "AppsForGood".
+              </li>
+              <li>
+                Making Augmented Reality mobile applications using Unity and C#.
+              </li>
+            </ul>
           </div>
           <a href="#about">
             <img src={code} alt="Time-As-Dev" className="time-img" />
@@ -80,21 +80,21 @@ const Experience = () => {
               <br />
               <br />
               What I did:
-              <ul className="desc-ul">
-                <li> Developed server-side programs for Banking Services.</li>
-                <li>
-                  {" "}
-                  Created a virtual assistant bot that helped handle interaction
-                  with non-portuguese emigrants seeking help from a financial
-                  services company.
-                </li>
-                <li>
-                  {" "}
-                  Participated in creating a React front-end for a Banking
-                  Service.
-                </li>
-              </ul>
             </p>
+            <ul className="desc-ul">
+              <li> Developed server-side programs for Banking Services.</li>
+              <li>
+                {" "}
+                Created a virtual assistant bot that helped handle interaction
+                with non-portuguese emigrants seeking help from a financial
+                services company.
+              </li>
+              <li>
+                {" "}
+                Participated in creating a React front-end for a Banking
+                Services company.
+              </li>
+            </ul>
           </div>
         </div>
       </div>

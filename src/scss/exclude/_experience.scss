@@ -28,20 +28,15 @@
       .text {
         .desc {
           padding-top: 2rem;
-          width: 78%;
+          width: 88%;
           color: $grey;
           line-height: 1.4rem;
-          .desc-ul {
-            list-style: disc;
-            padding-top: 0.4rem;
-            padding-left: 1rem;
-          }
         }
       }
       a {
         img {
           position: relative;
-          max-width: 28rem;
+          max-width: 26rem;
           height: auto;
           display: block;
           margin-right: -1rem;
@@ -55,14 +50,9 @@
         padding-left: 5rem;
         .desc {
           padding-top: 2rem;
-          width: 95%;
+          width: 100%;
           color: $grey;
           line-height: 1.4rem;
-          .desc-ul {
-            list-style: disc;
-            padding-top: 0.4rem;
-            padding-left: 1rem;
-          }
         }
       }
       a {
@@ -78,6 +68,14 @@
     .time-span {
       font-family: $font-other;
       font-size: 1rem;
+    }
+    .desc-ul {
+      list-style: disc;
+      padding-top: 0.4rem;
+      padding-left: 1rem;
+      width: 88%;
+      color: $grey;
+      line-height: 1.4rem;
     }
   }
 }

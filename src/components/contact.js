@@ -4,6 +4,9 @@ import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [animate, setAnimate] = useState({ visibility: "hidden" });
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const myScrollFunc = () => {
     window.addEventListener("scroll", () => {
@@ -44,23 +47,20 @@ const Contact = () => {
           onSubmit={(e) => {
             e.preventDefault();
 
-            // let template_params = {
-            //   user_name: { userName },
-            //   user_email: { userEmail },
-            //   message: { userMessage }
-            // };
+            var template_params = {
+              user_name: name,
+              user_email: email,
+              user_message: message
+            };
 
-            var service_id = "default_service";
-            var template_id = "onformsubmit";
             const user_id = "user_UyJVSBUcz3FPK1w6dUBE8";
-
+            const service_id = "default_service";
+            const template_id = "template_QZsjJVZa";
             emailjs
-              .sendForm(service_id, template_id, e.target, user_id)
-              .then((res) => {
-                console.log("Sucess", res.status, res.text);
-              })
+              .send(service_id, template_id, template_params, user_id)
+              .then(console.log("Sucess"))
               .catch((err) => {
-                console.log("Failed", err);
+                console.log("Error: ", err);
               });
           }}
         >
@@ -76,6 +76,10 @@ const Contact = () => {
               type="text"
               name="user_name"
               className="contact-input name"
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
+              value={name}
               required
             />
           </div>
@@ -85,6 +89,10 @@ const Contact = () => {
               type="email"
               name="user_email"
               className="contact-input email"
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
+              value={email}
               required
             />
           </div>
@@ -93,6 +101,10 @@ const Contact = () => {
             <textarea
               name="message"
               className="contact-input textarea"
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
+              value={message}
               required
             />
           </div>
