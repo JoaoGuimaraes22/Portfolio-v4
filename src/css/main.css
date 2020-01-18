@@ -831,7 +831,7 @@ ul {
 }
 
 .socials .icon {
-  margin-bottom: 1.8rem;
+  margin-bottom: 2.2rem;
   cursor: pointer;
   color: white;
 }
@@ -929,7 +929,7 @@ ul {
 .fixed-contacts .c-text {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  margin-bottom: 13rem;
+  margin-bottom: 11.5rem;
   font-size: 1rem;
 }
 

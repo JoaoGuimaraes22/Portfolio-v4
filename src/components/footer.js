@@ -13,7 +13,8 @@ const Footer = () => {
   return (
     <footer className="footer" id="footer">
       <div className="copyright">
-        Made by João Guimaraes <span className="bluer">&copy; 2020</span>
+        Made by João Guimaraes, built with React, SCSS & Firebase
+        <span className="bluer"> &copy; 2020</span>
       </div>
       <div className="icons">
         <div className="icon">

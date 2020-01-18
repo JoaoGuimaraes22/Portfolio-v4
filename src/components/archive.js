@@ -67,6 +67,8 @@ const Archive = () => {
           <p className="repo-count">
             Currently I have <span className="bluer">{git.length} </span>
             repositories.
+            <br />
+            (data fetched using the Github API).
           </p>
 
           <p className="other-proj">

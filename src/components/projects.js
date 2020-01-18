@@ -41,7 +41,7 @@ const Projects = () => {
           animationFillMode: "forwards"
         });
       }
-      if (y >= 2650) {
+      if (y >= 2700) {
         setAnimate4({
           visibility: "visible",
           animation: "appear 1.3s",

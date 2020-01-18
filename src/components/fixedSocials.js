@@ -44,6 +44,7 @@ const Socials = () => {
       <a href="https://www.youtube.com/" target="blank">
         <FaYoutube className="icon" />
       </a>
+
       <div className="line"></div>
     </div>
   );
