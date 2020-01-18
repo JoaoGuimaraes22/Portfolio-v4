@@ -2,7 +2,7 @@
 
 .skills {
   @include Spacing();
-  padding-top: 14rem;
+  padding-top: 12em;
   .skills-text {
     font-family: $font-other;
     @include Flex(row);
@@ -33,7 +33,7 @@
     margin: 0 auto;
     color: $grey;
     line-height: 1.6rem;
-    max-width: 40%;
+    max-width: 60%;
     .skills-desc-2 {
       padding-top: 3rem;
       text-align: justify;

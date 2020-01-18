@@ -409,9 +409,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   min-height: 5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -425,6 +425,10 @@ ul {
 .navbar .logo {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 8rem;
 }
 
 .navbar .logo-minus {
@@ -453,6 +457,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-right: 1rem;
 }
 
 .navbar .nav-list-item a {
@@ -479,6 +484,7 @@ ul {
   font-family: "Inconsolata", monospace;
   border-radius: 13%;
   letter-spacing: 0.05rem;
+  margin-right: 4rem;
 }
 
 .navbar .resume:hover {
@@ -1061,7 +1067,7 @@ ul {
 }
 
 .about .about-main .main-text .desc {
-  width: 70%;
+  width: 85%;
   line-height: 1.7rem;
   padding-top: 2rem;
   color: #e9ecf7ad;
@@ -1147,7 +1153,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 14rem;
+  padding-top: 12em;
 }
 
 .skills .skills-text {
@@ -1209,7 +1215,7 @@ ul {
   margin: 0 auto;
   color: #e9ecf7ad;
   line-height: 1.6rem;
-  max-width: 40%;
+  max-width: 60%;
 }
 
 .skills .desc .skills-desc-2 {
@@ -1740,6 +1746,7 @@ ul {
 }
 
 .experience .exp-main {
+  width: 100%;
   padding-top: 5rem;
 }
 
@@ -1747,68 +1754,77 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 1rem;
+}
+
+.experience .exp-main .exp-time .text {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
 }
 
 .experience .exp-main .exp-time .text .desc {
   padding-top: 2rem;
-  width: 88%;
   color: #e9ecf7ad;
   line-height: 1.4rem;
+  width: 80%;
+}
+
+.experience .exp-main .exp-time a {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 
 .experience .exp-main .exp-time a img {
-  position: relative;
-  max-width: 26rem;
+  max-width: 110%;
   height: auto;
-  display: block;
-  margin-right: -1rem;
 }
 
 .experience .exp-main .exp-uni {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 10rem;
 }
 
 .experience .exp-main .exp-uni .uni-text {
-  padding-left: 5rem;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding-left: 8rem;
 }
 
 .experience .exp-main .exp-uni .uni-text .desc {
   padding-top: 2rem;
-  width: 100%;
   color: #e9ecf7ad;
   line-height: 1.4rem;
+  width: 100%;
+}
+
+.experience .exp-main .exp-uni a {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 
 .experience .exp-main .exp-uni a img {
-  position: relative;
-  max-width: 28rem;
+  width: 135%;
   height: auto;
   display: block;
-  margin-right: -1rem;
 }
 
 .experience .exp-main .time-span {

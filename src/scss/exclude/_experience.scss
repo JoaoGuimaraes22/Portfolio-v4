@@ -21,47 +21,53 @@
     }
   }
   .exp-main {
+    width: 100%;
     padding-top: 5rem;
     .exp-time {
-      @include Flex(row);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       padding-top: 1rem;
       .text {
+        flex: 3;
         .desc {
           padding-top: 2rem;
-          width: 88%;
           color: $grey;
           line-height: 1.4rem;
+          width: 80%;
         }
       }
       a {
+        flex: 2;
         img {
-          position: relative;
-          max-width: 26rem;
+          max-width: 110%;
           height: auto;
-          display: block;
-          margin-right: -1rem;
         }
       }
     }
     .exp-uni {
-      @include Flex(row);
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       padding-top: 10rem;
       .uni-text {
-        padding-left: 5rem;
+        flex: 3;
+        padding-left: 8rem;
+
         .desc {
           padding-top: 2rem;
-          width: 100%;
           color: $grey;
           line-height: 1.4rem;
+          width: 100%;
         }
       }
       a {
+        flex: 2;
         img {
-          position: relative;
-          max-width: 28rem;
+          width: 135%;
           height: auto;
           display: block;
-          margin-right: -1rem;
         }
       }
     }
