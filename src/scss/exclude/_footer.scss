@@ -12,7 +12,7 @@
   }
   .icons {
     @include Flex(row);
-
+    padding-top: 0.7rem;
     .icon {
       color: white;
       margin: 0 1rem;
