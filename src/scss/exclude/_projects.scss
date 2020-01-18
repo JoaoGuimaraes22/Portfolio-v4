@@ -15,6 +15,9 @@
     .projects-title {
       font-size: 2rem;
       font-family: $font-other;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       .projects-num {
         color: $blue-primary;
         font-size: 1.8rem;

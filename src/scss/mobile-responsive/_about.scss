@@ -1,0 +1,58 @@
+//Mobile View
+@import "../exclude/variables";
+
+@media only screen and (max-width: 987px) {
+  .about {
+    padding-top: 8rem;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    .ab-title {
+      font-family: $font-other;
+      @include Flex(row);
+      .ab-title-text {
+        font-family: $font-other;
+        font-size: 1.5rem;
+      }
+      .ab-num {
+        font-size: 1.2rem;
+        color: $blue-primary;
+      }
+      .line {
+        border: $grey 0.5px solid;
+        margin-left: 1.2rem;
+        padding-left: 10.5rem;
+      }
+    }
+    .about-main {
+      @include Flex(column);
+      padding-top: 2rem;
+      .main-text {
+        .desc {
+          width: 100%;
+          line-height: 1.7rem;
+          padding-top: 2rem;
+          color: $grey;
+          font-size: 0.9rem;
+        }
+        .desc-2 {
+          width: 100%;
+          line-height: 1.7rem;
+          padding-top: 2rem;
+          color: $grey;
+          font-size: 0.9rem;
+        }
+      }
+      a {
+        .img {
+          padding-top: 4rem;
+          max-width: 16rem;
+          border-radius: 1%;
+        }
+      }
+    }
+  }
+}

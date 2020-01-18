@@ -1,0 +1,34 @@
+//Mobile View
+@import "../exclude/variables";
+
+@media only screen and (max-width: 987px) {
+  .footer {
+    @include Flex(column);
+    z-index: 999;
+    width: 100% !important;
+    padding-left: 0;
+    margin: 5rem 0 0 0;
+    background: #0c1836;
+    padding: 2rem 0;
+    .copyright {
+      font-size: 0.7rem;
+      font-family: $font-other;
+    }
+    .icons {
+      @include Flex(row);
+      padding-top: 0.7rem;
+      .icon {
+        color: white;
+        margin: 0 1rem;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        a {
+          color: white;
+        }
+        a:hover {
+          color: $blue-primary;
+        }
+      }
+    }
+  }
+}

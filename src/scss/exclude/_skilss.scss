@@ -15,9 +15,14 @@
     .skills-title {
       font-size: 2rem;
       font-family: $font-other;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
       .skills-num {
         color: $blue-primary;
         font-size: 1.8rem;
+        margin: 0 auto;
       }
     }
     .line {
@@ -39,6 +44,7 @@
       text-align: justify;
       color: $gray;
       font-family: $font-other;
+      margin: 0 auto;
     }
   }
 

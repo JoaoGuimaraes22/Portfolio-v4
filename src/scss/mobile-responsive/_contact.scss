@@ -1,0 +1,102 @@
+//Mobile View
+@import "../exclude/variables";
+
+@media only screen and (max-width: 987px) {
+  .contact {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 12em;
+    .contact-text {
+      font-family: $font-other;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      .line-1 {
+        border: $grey 0.5px solid;
+        padding-left: 6rem;
+        margin-right: 1.2rem;
+      }
+      .contact-title {
+        font-size: 1.5rem;
+        font-family: $font-other;
+        display: flex;
+        align-items: center;
+        .contact-num {
+          color: $blue-primary;
+          font-size: 1.2rem;
+          margin: 0 auto;
+        }
+      }
+      .line {
+        border: $grey 0.5px solid;
+        margin-left: 1.2rem;
+        padding-left: 6rem;
+      }
+    }
+    .contact-main {
+      @include Flex(column);
+      margin: 0 auto;
+      padding-top: 1.5rem;
+      .contact-subtitle {
+        @include Flex(column);
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 3rem;
+        text-align: justify;
+        .sub-text {
+          color: $grey;
+          width: 75%;
+        }
+      }
+      .contact-form {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 2rem;
+        .form-comp {
+          padding: 1rem 2rem;
+          .label {
+            margin-left: -17.5rem;
+          }
+          .label-msg {
+            margin-left: -16rem;
+          }
+          .contact-input {
+            min-width: 12rem;
+            @include Flex(column);
+            background: transparent;
+            outline: none;
+            border: 1px solid $blue-primary;
+            padding: 0.4rem 4rem;
+            margin-top: 0.2rem;
+            color: white;
+          }
+          .contact-input:focus {
+            border: 1.5px solid $blue-primary;
+          }
+        }
+        .submit-button {
+          margin-top: 1.6rem;
+          padding: 1rem 3rem;
+          background: transparent;
+          border: 1px solid $blue-primary;
+          color: rgb(221, 217, 217);
+          text-align: center;
+          cursor: pointer;
+          font-weight: 500;
+          border-radius: 4%;
+        }
+        .submit-button:hover {
+          animation: fadeOpacity 0.3s;
+          animation-fill-mode: forwards;
+          border: 1.5px solid $blue-primary;
+          color: white;
+        }
+      }
+    }
+  }
+}

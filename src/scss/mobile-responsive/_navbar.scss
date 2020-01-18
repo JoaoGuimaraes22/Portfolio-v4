@@ -1,0 +1,67 @@
+@media only screen and (max-width: 987px) {
+  .navbar {
+    font-family: "Inconsolata", monospace;
+    background-color: $darker-primary;
+    box-shadow: -3px 1px 24px 1px #0e1b3d;
+    display: flex;
+    justify-content: space-between;
+    min-height: 5rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: none;
+    .logo {
+      font-family: "Roboto", sans-serif;
+      cursor: pointer;
+      flex: 1;
+      padding-left: 8rem;
+      &-minus {
+        color: $blue-primary;
+      }
+      &-main {
+        color: white;
+      }
+      &-greater {
+        color: $blue-primary;
+      }
+    }
+
+    .nav-list {
+      @include Flex(row);
+      padding-right: 1rem;
+      &-item {
+        a {
+          color: $gray;
+          margin-right: 2rem;
+          .nav-links-num {
+            color: $blue-primary;
+          }
+        }
+
+        a:hover {
+          color: $blue-primary;
+        }
+      }
+    }
+
+    .resume {
+      cursor: pointer;
+      outline: none;
+      background: transparent;
+      color: $blue-primary;
+      border: 2px $blue-primary solid;
+      padding: 0.4rem 0.6rem;
+      font-size: 1rem;
+      font-family: $font-other;
+      border-radius: 13%;
+      letter-spacing: 0.05rem;
+      margin-right: 4rem;
+    }
+
+    .resume:hover {
+      animation: fadeOpacity 0.4s;
+      animation-fill-mode: forwards;
+    }
+  }
+}

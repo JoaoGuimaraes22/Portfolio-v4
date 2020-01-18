@@ -26,7 +26,7 @@ const Skills = () => {
       <div className="skills-text">
         <div className="line-one"></div>
         <h1 className="skills-title">
-          <span className="skills-num">02. </span>My Skills
+          <span className="skills-num">02. </span>Skills
         </h1>
         <div className="line"></div>
       </div>

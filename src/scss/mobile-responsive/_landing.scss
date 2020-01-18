@@ -1,0 +1,55 @@
+@import "../exclude/variables";
+
+@media only screen and (max-width: 987px) {
+  .landing {
+    padding-top: 8rem;
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    .hey {
+      font-family: $font-other;
+      color: $blue-primary;
+      font-size: 1rem;
+      font-weight: 100;
+    }
+    .name {
+      font-size: 4.5rem;
+      padding-top: 0.2rem;
+    }
+    .hard {
+      font-family: $font-other;
+      font-size: 1rem;
+    }
+    .intro {
+      padding-top: 2.5rem;
+      font-size: 1.7rem;
+      color: #ccd6f69c;
+    }
+    .desc {
+      padding-top: 2.5rem;
+      font-size: 0.8rem;
+      color: #ccd6f69c;
+      width: 100%;
+      line-height: 1.5rem;
+    }
+    .find-more {
+      cursor: pointer;
+      margin-top: 2.2rem;
+      outline: none;
+      background: transparent;
+      color: $blue-primary;
+      border: 2px $blue-primary solid;
+      padding: 0.8rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 9%;
+    }
+    .find-more:hover {
+      animation: fadeOpacity 0.4s;
+      animation-fill-mode: forwards;
+    }
+  }
+}

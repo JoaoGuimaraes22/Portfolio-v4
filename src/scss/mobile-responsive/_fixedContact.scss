@@ -1,0 +1,18 @@
+@media only screen and (max-width: 987px) {
+  .fixed-contacts {
+    display: none;
+    a {
+      display: none;
+      .fixed-contact-me {
+        display: none;
+      }
+    }
+
+    .c-text {
+      display: none;
+    }
+    .line {
+      display: none;
+    }
+  }
+}
