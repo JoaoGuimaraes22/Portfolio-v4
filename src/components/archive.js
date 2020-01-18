@@ -1,89 +1,107 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 import "../css/main.css";
 import Navbar from "./navbar";
+import { FaGithub } from "react-icons/fa";
 
 const Archive = () => {
   const [git, setGit] = useState([]);
+  const [navPos, setNavPos] = useState({ top: "0" });
 
   useEffect(() => {
-    const getGit = async () => {
-      const API_URL = "https://api.github.com/users/JoaoGuimaraes22/repos";
-      const response = await fetch(API_URL);
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        setNavPos({ top: "0" });
+      } else {
+        setNavPos({ animation: "gone 0.3s", animationFillMode: "forwards" });
+      }
+      prevScrollpos = currentScrollPos;
+    };
+  }, []);
 
-      const data = await response.json();
-      let newData = [];
+  const getGit = async () => {
+    const API_URL = "https://api.github.com/users/JoaoGuimaraes22/repos";
+    const response = await fetch(API_URL);
+    const data = await response.json();
 
-      const repoNames = await data.map((e) => {
-        return e.name;
-      });
-
-      await repoNames.forEach(async (e) => {
-        const topicsGet = await fetch(
-          `https://api.github.com/repos/JoaoGuimaraes22/${e}/topics`,
-          {
-            method: "GET",
-            headers: new Headers({
-              Accept: "application/vnd.github.mercy-preview+json",
-              Authorization: "token 42ec1a575fad2318cd088710726435c353bb8b6c"
-            })
-          }
-        );
-
-        const res = await topicsGet.json();
-        const topics = await res.names;
-
-        const checkIfNone = () => {
-          if (topics.length === 0) {
-            return false;
-          } else {
-            return true;
-          }
-        };
-
-        const stringify = () => {
-          let stringer = "";
-          if (!checkIfNone()) {
-            return " ";
-          } else {
-            for (let o = 0; o < topics.length; o++) {
-              stringer += topics[o] + " ";
-            }
-          }
-          return stringer;
-        };
-
-        await stringify();
-
-        const getAssociatedName = () => {
-          for (let r = 0; r < data.length; r++) {
-            if (data[r].name === e) {
-              return data[r];
-            }
-          }
-        };
-
-        const corrObj = await getAssociatedName();
-        corrObj["topics"] = await stringify();
-
-        await newData.push(corrObj);
-      });
-      await setGit(newData);
+    const sortFunction = (a, b) => {
+      var dateA = new Date(a.created_at).getTime();
+      var dateB = new Date(b.created_at).getTime();
+      return dateA < dateB ? 1 : -1;
     };
 
+    const sorting = data.sort(sortFunction);
+
+    console.log(data);
+
+    setGit(sorting);
+  };
+
+  useEffect(() => {
     getGit();
   }, []);
 
-  const fakeObj = [{ name: "Sebas", desc: "pretty cool guy" }];
-
   return (
     <div className="archive" id="archive">
-      <Navbar />
-      <header className="archive-logo">
-        <h3 className="archive-title">Archive</h3>
-        <p className="other-proj">Here is big list of the stuff I've done</p>
-      </header>
+      <nav className="notnav" id="navbar" style={navPos}>
+        <h2
+          className="logo"
+          onClick={() => {
+            window.location = "/";
+          }}
+        >
+          <span className="logo-minus">&#60;</span>
+          <span className="logo-main">JG</span>
+          <span className="logo-greater">/&#62;</span>
+        </h2>
+      </nav>
+      <div className="main">
+        <header className="archive-logo">
+          <h1 className="archive-title">Archive</h1>
 
-      <div className="repos">{}</div>
+          <p className="repo-count">
+            Currently I have <span className="bluer">{git.length} </span>
+            repositories.
+          </p>
+
+          <p className="other-proj">
+            Here is a big list of the stuff I've done:
+          </p>
+        </header>
+        <div className="repos">
+          {git.map((e) => {
+            return (
+              <div key={e.id} className="repo">
+                <div className="part-1">
+                  {" "}
+                  <div className="name">
+                    <p className="bluer">Name:</p>
+                    <h1 className="repo-name">{e.name}</h1>
+                  </div>
+                  <div className="date">
+                    <p className="bluer">Created at:</p>
+                    <p className="repo-date">{e.created_at.substring(0, 10)}</p>
+                  </div>
+                </div>
+                <div className="part-2">
+                  <div className="desc">
+                    <div className="bluer">Description:</div>
+                    <p className="repo-desc">{e.description}</p>
+                  </div>
+                  <div className="most-used">
+                    <p className="bluer">Most used language:</p>
+                    <p className="repo-lang">{e.language}</p>
+                  </div>
+                </div>
+                <a href={e.html_url} target="blank" className="repo-url">
+                  <FaGithub />
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 };

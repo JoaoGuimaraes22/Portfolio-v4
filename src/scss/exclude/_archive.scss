@@ -1,4 +1,69 @@
-.repos {
-  padding: 10rem;
-  color: white;
+@import "./variables";
+
+.archive {
+  .main {
+    padding-top: 12rem;
+    margin: 0 auto;
+    width: 80%;
+    .archive-logo {
+      .archive-title {
+        font-size: 3.5rem;
+      }
+      .repo-count {
+        font-family: $font-other;
+        color: $grey;
+      }
+      .other-proj {
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        color: $blue-primary;
+      }
+    }
+    .repos {
+      padding-top: 5rem;
+      .repo {
+        max-height: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding: 1.5rem 0;
+        border-bottom: $grey 1px solid;
+        .part-1 {
+          width: 32%;
+          .name {
+            .repo-name {
+              font-size: 2rem;
+            }
+          }
+          .date {
+            padding-top: 0.4rem;
+          }
+        }
+        .part-2 {
+          width: 60%;
+          .desc {
+            .repo-desc {
+              font-size: 1rem;
+              width: 93%;
+            }
+          }
+          .most-used {
+            padding-top: 1.8rem;
+            .repo-lang {
+              font-family: $font-other;
+            }
+          }
+        }
+        .repo-url {
+          width: 1%;
+          color: white;
+          font-size: 1.5rem;
+        }
+        .repo-url:hover {
+          color: $blue-primary;
+        }
+      }
+    }
+  }
 }

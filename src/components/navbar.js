@@ -23,7 +23,7 @@ const Navbar = () => {
       <h2
         className="logo"
         onClick={() => {
-          window.location.reload();
+          window.location = "/";
         }}
       >
         <span className="logo-minus">&#60;</span>

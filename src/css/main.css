@@ -403,8 +403,8 @@ ul {
 .navbar {
   font-family: "Inconsolata", monospace;
   background-color: #152a5f;
-  -webkit-box-shadow: -3px 1px 24px 1px rgba(0, 0, 0, 0.7);
-          box-shadow: -3px 1px 24px 1px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: -3px 1px 24px 1px #0e1b3d;
+          box-shadow: -3px 1px 24px 1px #0e1b3d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -595,6 +595,42 @@ ul {
   100% {
     top: 0;
   }
+}
+
+.notnav {
+  font-family: "Inconsolata", monospace;
+  background-color: #152a5f;
+  -webkit-box-shadow: -3px 1px 24px 1px #0e1b3d;
+          box-shadow: -3px 1px 24px 1px #0e1b3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.notnav .logo {
+  font-family: "Roboto", sans-serif;
+  padding-left: 8rem;
+  cursor: pointer;
+}
+
+.notnav .logo-minus {
+  color: #61dafb;
+}
+
+.notnav .logo-main {
+  color: white;
+}
+
+.notnav .logo-greater {
+  color: #61dafb;
 }
 
 @keyframes fadeOpacity {
@@ -1574,19 +1610,7 @@ ul {
 
 .projects .projects-see-more {
   padding-top: 4.8rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  margin: 0 auto;
 }
 
 .projects .projects-see-more .see-more {
@@ -1596,8 +1620,8 @@ ul {
   font-family: "Inconsolata", monospace;
   color: #61dafb;
   border: 2px #61dafb solid;
-  padding: 1.2rem 24rem;
-  text-align: center;
+  padding: 1.2rem 0;
+  width: 100%;
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -2075,8 +2099,137 @@ ul {
   color: #61dafb;
 }
 
-.repos {
-  padding: 10rem;
+@keyframes fadeOpacity {
+  0% {
+    background-color: #152a5f;
+  }
+  33% {
+    background-color: #172d66;
+  }
+  66% {
+    background-color: #19316e;
+  }
+  100% {
+    background-color: #1c377c;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.archive .main {
+  padding-top: 12rem;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.archive .main .archive-logo .archive-title {
+  font-size: 3.5rem;
+}
+
+.archive .main .archive-logo .repo-count {
+  font-family: "Inconsolata", monospace;
+  color: #e9ecf7ad;
+}
+
+.archive .main .archive-logo .other-proj {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  color: #61dafb;
+}
+
+.archive .main .repos {
+  padding-top: 5rem;
+}
+
+.archive .main .repos .repo {
+  max-height: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1.5rem 0;
+  border-bottom: #e9ecf7ad 1px solid;
+}
+
+.archive .main .repos .repo .part-1 {
+  width: 32%;
+}
+
+.archive .main .repos .repo .part-1 .name .repo-name {
+  font-size: 2rem;
+}
+
+.archive .main .repos .repo .part-1 .date {
+  padding-top: 0.4rem;
+}
+
+.archive .main .repos .repo .part-2 {
+  width: 60%;
+}
+
+.archive .main .repos .repo .part-2 .desc .repo-desc {
+  font-size: 1rem;
+  width: 93%;
+}
+
+.archive .main .repos .repo .part-2 .most-used {
+  padding-top: 1.8rem;
+}
+
+.archive .main .repos .repo .part-2 .most-used .repo-lang {
+  font-family: "Inconsolata", monospace;
+}
+
+.archive .main .repos .repo .repo-url {
+  width: 1%;
   color: white;
+  font-size: 1.5rem;
+}
+
+.archive .main .repos .repo .repo-url:hover {
+  color: #61dafb;
 }
 /*# sourceMappingURL=main.css.map */

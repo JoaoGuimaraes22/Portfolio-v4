@@ -3,7 +3,7 @@
 .navbar {
   font-family: "Inconsolata", monospace;
   background-color: $darker-primary;
-  box-shadow: -3px 1px 24px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: -3px 1px 24px 1px #0e1b3d;
   display: flex;
   justify-content: space-evenly;
   min-height: 5rem;
@@ -126,5 +126,32 @@
 
   100% {
     top: 0;
+  }
+}
+
+.notnav {
+  font-family: "Inconsolata", monospace;
+  background-color: $darker-primary;
+  box-shadow: -3px 1px 24px 1px #0e1b3d;
+  display: flex;
+  min-height: 5rem;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  .logo {
+    font-family: "Roboto", sans-serif;
+    padding-left: 8rem;
+    cursor: pointer;
+    &-minus {
+      color: $blue-primary;
+    }
+    &-main {
+      color: white;
+    }
+    &-greater {
+      color: $blue-primary;
+    }
   }
 }
