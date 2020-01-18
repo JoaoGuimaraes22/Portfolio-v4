@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "../css/main.css";
-import Navbar from "./navbar";
 import { FaGithub } from "react-icons/fa";
 
 const Archive = () => {
