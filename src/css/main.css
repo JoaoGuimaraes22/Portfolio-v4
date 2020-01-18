@@ -473,10 +473,11 @@ ul {
   background: transparent;
   color: #61dafb;
   border: 2px #61dafb solid;
-  padding: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  font-family: "Inconsolata", monospace;
   border-radius: 13%;
-  letter-spacing: 0.1rem;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, sans-serif;
+  letter-spacing: 0.05rem;
 }
 
 .navbar .resume:hover {

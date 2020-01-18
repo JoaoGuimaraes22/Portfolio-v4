@@ -49,10 +49,11 @@
     background: transparent;
     color: $blue-primary;
     border: 2px $blue-primary solid;
-    padding: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+    font-family: $font-other;
     border-radius: 13%;
-    letter-spacing: 0.1rem;
-    font-family: $font-primary;
+    letter-spacing: 0.05rem;
   }
 
   .resume:hover {
