@@ -37,7 +37,12 @@ const Archive = () => {
     setGit(sorting);
   };
 
+  const changeTitle = () => {
+    document.title = "Archive | JG";
+  };
+
   useEffect(() => {
+    changeTitle();
     getGit();
   }, []);
 
