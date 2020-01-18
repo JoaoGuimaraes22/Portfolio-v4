@@ -3,5 +3,6 @@
     - HTLM5, CSS
     - SCSS
     - ES6+
-    - Github (obviously)
+    - Github API
     - React.js
+    - Firebase
