@@ -2384,7 +2384,7 @@ ul {
   .about .ab-title .line {
     border: #e9ecf7ad 0.5px solid;
     margin-left: 1.2rem;
-    padding-left: 10.5rem;
+    padding-left: 6.5rem;
   }
   .about .about-main {
     display: -webkit-box;
@@ -3000,7 +3000,7 @@ ul {
     padding: 1rem 0 0 0rem;
   }
   .projects .projects-container .project-1 .project-img-part img {
-    margin-left: -2.6rem;
+    margin-left: -2.1rem;
     display: block;
     max-width: 75% !important;
   }
@@ -3179,7 +3179,7 @@ ul {
   .experience {
     padding-top: 8rem;
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3221,7 +3221,7 @@ ul {
   .experience .exp-title .line {
     border: #e9ecf7ad 0.5px solid;
     margin-left: 1.2rem;
-    padding-left: 5.5rem;
+    padding-left: 3.5rem;
   }
   .experience .exp-main {
     width: 100%;
@@ -3364,7 +3364,7 @@ ul {
 @media only screen and (max-width: 987px) {
   .contact {
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3395,7 +3395,7 @@ ul {
   }
   .contact .contact-text .line-1 {
     border: #e9ecf7ad 0.5px solid;
-    padding-left: 6rem;
+    padding-left: 4rem;
     margin-right: 1.2rem;
   }
   .contact .contact-text .contact-title {
@@ -3416,7 +3416,7 @@ ul {
   .contact .contact-text .line {
     border: #e9ecf7ad 0.5px solid;
     margin-left: 1.2rem;
-    padding-left: 6rem;
+    padding-left: 4rem;
   }
   .contact .contact-main {
     display: -webkit-box;
@@ -3464,7 +3464,7 @@ ul {
     padding-top: 2rem;
   }
   .contact .contact-main .contact-form .form-comp {
-    padding: 1rem 2rem;
+    padding: 1rem 0.8rem;
   }
   .contact .contact-main .contact-form .form-comp .label {
     margin-left: -17.5rem;
@@ -3622,6 +3622,107 @@ ul {
   }
   .footer .icons .icon a:hover {
     color: #61dafb;
+  }
+}
+
+@keyframes fadeOpacity {
+  0% {
+    background-color: #112350;
+  }
+  33% {
+    background-color: #172d66;
+  }
+  66% {
+    background-color: #19316e;
+  }
+  100% {
+    background-color: #1c377c;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 987px) {
+  .loading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    background: #112350;
+  }
+  .loading .logo {
+    padding: 2rem;
+    font-family: "Inconsolata", monospace;
+    font-size: 6rem;
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .loading .logo .logo-minus {
+    color: #61dafb;
+    padding-right: 1.1rem;
+    -webkit-animation: 1s fadeIn;
+            animation: 1s fadeIn;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .loading .logo .logo-main {
+    color: white;
+    -webkit-animation: 1s fadeIn;
+            animation: 1s fadeIn;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .loading .logo .logo-greater {
+    color: #61dafb;
+    padding-left: 1rem;
+    -webkit-animation: 1s fadeIn;
+            animation: 1s fadeIn;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
   }
 }
 /*# sourceMappingURL=main.css.map */

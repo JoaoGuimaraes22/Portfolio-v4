@@ -4,7 +4,7 @@
 @media only screen and (max-width: 987px) {
   .contact {
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -18,7 +18,7 @@
       margin: 0 auto;
       .line-1 {
         border: $grey 0.5px solid;
-        padding-left: 6rem;
+        padding-left: 4rem;
         margin-right: 1.2rem;
       }
       .contact-title {
@@ -35,7 +35,7 @@
       .line {
         border: $grey 0.5px solid;
         margin-left: 1.2rem;
-        padding-left: 6rem;
+        padding-left: 4rem;
       }
     }
     .contact-main {
@@ -58,7 +58,7 @@
         text-align: center;
         padding-top: 2rem;
         .form-comp {
-          padding: 1rem 2rem;
+          padding: 1rem 0.8rem;
           .label {
             margin-left: -17.5rem;
           }
