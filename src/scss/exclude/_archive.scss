@@ -1,21 +1,22 @@
 @import "./variables";
 
 .archive {
+  background: linear-gradient(#112350, #162b61);
   .main {
-    padding-top: 12rem;
+    padding-top: 10rem;
     margin: 0 auto;
     width: 80%;
     .archive-logo {
       .archive-title {
-        font-size: 3.5rem;
+        font-size: 6rem;
       }
       .repo-count {
         font-family: $font-other;
         color: $grey;
       }
       .other-proj {
-        padding-top: 1rem;
-        font-size: 1.3rem;
+        padding-top: 2rem;
+        font-size: 1.22rem;
         color: $blue-primary;
       }
     }
@@ -37,7 +38,7 @@
             }
           }
           .date {
-            padding-top: 0.4rem;
+            padding-top: 1rem;
           }
         }
         .part-2 {
@@ -49,7 +50,7 @@
             }
           }
           .most-used {
-            padding-top: 1.8rem;
+            padding-top: 1.4rem;
             .repo-lang {
               font-family: $font-other;
             }

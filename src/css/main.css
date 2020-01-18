@@ -1,6 +1,6 @@
 @-webkit-keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -15,7 +15,7 @@
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -102,7 +102,7 @@
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -164,7 +164,8 @@ html {
 }
 
 body {
-  background: #152a5f;
+  background: -webkit-gradient(linear, left top, left bottom, from(#112350), to(#162b61));
+  background: linear-gradient(#112350, #162b61);
   color: #ccd6f6;
 }
 
@@ -218,7 +219,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -282,7 +283,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  background: #152a5f;
+  background: #112350;
 }
 
 .loading .logo {
@@ -351,7 +352,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -402,7 +403,7 @@ ul {
 
 .navbar {
   font-family: "Inconsolata", monospace;
-  background-color: #152a5f;
+  background-color: #112350;
   -webkit-box-shadow: -3px 1px 24px 1px #0e1b3d;
           box-shadow: -3px 1px 24px 1px #0e1b3d;
   display: -webkit-box;
@@ -600,7 +601,7 @@ ul {
 
 .notnav {
   font-family: "Inconsolata", monospace;
-  background-color: #152a5f;
+  background-color: #112350;
   -webkit-box-shadow: -3px 1px 24px 1px #0e1b3d;
           box-shadow: -3px 1px 24px 1px #0e1b3d;
   display: -webkit-box;
@@ -636,7 +637,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -756,7 +757,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -846,7 +847,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -939,7 +940,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -1080,7 +1081,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -1256,7 +1257,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -1636,7 +1637,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -1995,7 +1996,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -2102,7 +2103,7 @@ ul {
 
 @keyframes fadeOpacity {
   0% {
-    background-color: #152a5f;
+    background-color: #112350;
   }
   33% {
     background-color: #172d66;
@@ -2151,14 +2152,19 @@ ul {
   }
 }
 
+.archive {
+  background: -webkit-gradient(linear, left top, left bottom, from(#112350), to(#162b61));
+  background: linear-gradient(#112350, #162b61);
+}
+
 .archive .main {
-  padding-top: 12rem;
+  padding-top: 10rem;
   margin: 0 auto;
   width: 80%;
 }
 
 .archive .main .archive-logo .archive-title {
-  font-size: 3.5rem;
+  font-size: 6rem;
 }
 
 .archive .main .archive-logo .repo-count {
@@ -2167,8 +2173,8 @@ ul {
 }
 
 .archive .main .archive-logo .other-proj {
-  padding-top: 1rem;
-  font-size: 1.3rem;
+  padding-top: 2rem;
+  font-size: 1.22rem;
   color: #61dafb;
 }
 
@@ -2204,7 +2210,7 @@ ul {
 }
 
 .archive .main .repos .repo .part-1 .date {
-  padding-top: 0.4rem;
+  padding-top: 1rem;
 }
 
 .archive .main .repos .repo .part-2 {
@@ -2217,7 +2223,7 @@ ul {
 }
 
 .archive .main .repos .repo .part-2 .most-used {
-  padding-top: 1.8rem;
+  padding-top: 1.4rem;
 }
 
 .archive .main .repos .repo .part-2 .most-used .repo-lang {
